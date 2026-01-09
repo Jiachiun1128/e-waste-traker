@@ -45,7 +45,7 @@ export CORE_PEER_ADDRESS=localhost:7051
 
 # Create secure temporary file for logs
 INSTALL_LOG=$(mktemp)
-trap "rm -f $INSTALL_LOG" EXIT
+trap "rm -f '$INSTALL_LOG'" EXIT
 
 # Try installation with timeout and better error handling
 for i in {1..3}; do

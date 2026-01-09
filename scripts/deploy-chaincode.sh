@@ -50,7 +50,7 @@ echo "🚀 Deploying chaincode (this may take 3-5 minutes)..."
 
 # Create secure temporary file for logs
 DEPLOY_LOG=$(mktemp)
-trap "rm -f $DEPLOY_LOG" EXIT
+trap "rm -f '$DEPLOY_LOG'" EXIT
 
 # Run deployment with better error handling
 if timeout 600 ./network.sh deployCC \
