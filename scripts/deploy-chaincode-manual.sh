@@ -4,6 +4,10 @@ set -e
 echo "🚀 Manual Chaincode Deployment (Bypassing Docker Build)"
 echo ""
 
+# Check Docker version compatibility
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+source "$SCRIPT_DIR/check-docker-version.sh" || true
+
 cd ~/e-waste-tracker/fabric-samples/test-network
 
 export FABRIC_CFG_PATH=~/e-waste-tracker/fabric-samples/config
@@ -39,7 +43,7 @@ export CORE_PEER_TLS_ROOTCERT_FILE=${PWD}/organizations/peerOrganizations/org1.e
 export CORE_PEER_MSPCONFIGPATH=${PWD}/organizations/peerOrganizations/org1.example. com/users/Admin@org1.example. com/msp
 export CORE_PEER_ADDRESS=localhost:7051
 
-# Try installation with timeout
+# Try installation with timeout and better error handling
 for i in {1..3}; do
     echo "Attempt $i/3..."
     if timeout 180 peer lifecycle chaincode install ewaste.tar.gz 2>&1 | tee /tmp/install-org1.log; then
@@ -47,6 +51,17 @@ for i in {1..3}; do
             echo "✅ Installed on Org1"
             break
         fi
+    fi
+    
+    # Check for Docker socket errors
+    if grep -qi "broken pipe\|docker.sock" /tmp/install-org1.log; then
+        echo ""
+        echo "❌ Docker socket error detected!"
+        echo "This is typically caused by Docker Engine v29+ incompatibility."
+        echo "Please check the Docker version warning above and downgrade if needed."
+        echo ""
+        docker logs peer0.org1.example.com --tail 50 2>/dev/null || true
+        exit 1
     fi
     
     if [ $i -eq 3 ]; then

@@ -3,6 +3,10 @@ set -e
 
 echo "📦 Deploying E-Waste Chaincode"
 
+# Check Docker version compatibility
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+source "$SCRIPT_DIR/check-docker-version.sh" || true
+
 cd ~/e-waste-tracker/fabric-samples/test-network
 
 export FABRIC_CFG_PATH=~/e-waste-tracker/fabric-samples/config
@@ -52,21 +56,43 @@ sudo chmod 666 /var/run/docker.sock 2>/dev/null || true
 # Try automated deployment
 echo "🚀 Deploying chaincode (this may take 3-5 minutes)..."
 
-timeout 600 ./network.sh deployCC \
+# Run deployment with better error handling
+if timeout 600 ./network.sh deployCC \
     -ccn ewaste \
     -ccp ~/e-waste-tracker/chaincode/javascript \
     -ccl javascript \
     -ccv 1.0 \
-    -ccs 1
+    -ccs 1 2>&1 | tee /tmp/deploycc.log; then
+    
+    # Check if deployment was actually successful
+    if grep -q "Chaincode definition committed on channel" /tmp/deploycc.log; then
+        echo ""
+        echo "✅ ============================================"
+        echo "✅  CHAINCODE DEPLOYED SUCCESSFULLY!"
+        echo "✅ ============================================"
+        echo ""
+        echo "🔗 Next: Run ./scripts/start-api.sh"
+        exit 0
+    fi
+fi
 
-if [ $? -eq 0 ]; then
+# Check for specific error patterns
+if grep -qi "broken pipe\|docker.sock" /tmp/deploycc.log 2>/dev/null; then
     echo ""
-    echo "✅ ============================================"
-    echo "✅  CHAINCODE DEPLOYED SUCCESSFULLY!"
-    echo "✅ ============================================"
+    echo "❌ ============================================"
+    echo "❌  DOCKER SOCKET ERROR DETECTED"
+    echo "❌ ============================================"
     echo ""
-    echo "🔗 Next: Run ./scripts/start-api.sh"
-    exit 0
+    echo "The deployment failed due to Docker communication issues."
+    echo "This is typically caused by Docker Engine v29+ incompatibility."
+    echo ""
+    echo "Please check your Docker version and downgrade if necessary."
+    echo "See the warning messages above for instructions."
+    echo ""
+    echo "You can also try the manual deployment script:"
+    echo "  ./scripts/deploy-chaincode-manual.sh"
+    echo ""
+    exit 1
 fi
 
 echo ""
