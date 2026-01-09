@@ -4,6 +4,10 @@ set -e
 echo "🚀 Manual Chaincode Deployment (Bypassing Docker Build)"
 echo ""
 
+# Check Docker version compatibility
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+source "$SCRIPT_DIR/check-docker-version.sh" || true
+
 cd ~/e-waste-tracker/fabric-samples/test-network
 
 export FABRIC_CFG_PATH=~/e-waste-tracker/fabric-samples/config
@@ -35,18 +39,33 @@ echo ""
 echo "📤 Installing on Org1..."
 export CORE_PEER_TLS_ENABLED=true
 export CORE_PEER_LOCALMSPID="Org1MSP"
-export CORE_PEER_TLS_ROOTCERT_FILE=${PWD}/organizations/peerOrganizations/org1.example. com/peers/peer0.org1.example.com/tls/ca. crt
-export CORE_PEER_MSPCONFIGPATH=${PWD}/organizations/peerOrganizations/org1.example. com/users/Admin@org1.example. com/msp
+export CORE_PEER_TLS_ROOTCERT_FILE=${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt
+export CORE_PEER_MSPCONFIGPATH=${PWD}/organizations/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp
 export CORE_PEER_ADDRESS=localhost:7051
 
-# Try installation with timeout
+# Create secure temporary file for logs
+INSTALL_LOG=$(mktemp)
+trap "rm -f '$INSTALL_LOG'" EXIT
+
+# Try installation with timeout and better error handling
 for i in {1..3}; do
     echo "Attempt $i/3..."
-    if timeout 180 peer lifecycle chaincode install ewaste.tar.gz 2>&1 | tee /tmp/install-org1.log; then
-        if grep -q "Chaincode code package identifier" /tmp/install-org1.log; then
+    if timeout 180 peer lifecycle chaincode install ewaste.tar.gz 2>&1 | tee "$INSTALL_LOG"; then
+        if grep -q "Chaincode code package identifier" "$INSTALL_LOG"; then
             echo "✅ Installed on Org1"
             break
         fi
+    fi
+    
+    # Check for Docker socket errors
+    if grep -qi "broken pipe\|docker.sock" "$INSTALL_LOG"; then
+        echo ""
+        echo "❌ Docker socket error detected!"
+        echo "This is typically caused by Docker Engine v29+ incompatibility."
+        echo "Please check the Docker version warning above and downgrade if needed."
+        echo ""
+        docker logs peer0.org1.example.com --tail 50 2>/dev/null || true
+        exit 1
     fi
     
     if [ $i -eq 3 ]; then
@@ -66,8 +85,8 @@ echo ""
 # Install on Org2
 echo "📤 Installing on Org2..."
 export CORE_PEER_LOCALMSPID="Org2MSP"
-export CORE_PEER_TLS_ROOTCERT_FILE=${PWD}/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca. crt
-export CORE_PEER_MSPCONFIGPATH=${PWD}/organizations/peerOrganizations/org2.example. com/users/Admin@org2.example.com/msp
+export CORE_PEER_TLS_ROOTCERT_FILE=${PWD}/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt
+export CORE_PEER_MSPCONFIGPATH=${PWD}/organizations/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp
 export CORE_PEER_ADDRESS=localhost:9051
 
 timeout 180 peer lifecycle chaincode install ewaste.tar.gz
@@ -83,12 +102,12 @@ echo ""
 # Approve for Org1
 echo "✅ Approving for Org1..."
 export CORE_PEER_LOCALMSPID="Org1MSP"
-export CORE_PEER_MSPCONFIGPATH=${PWD}/organizations/peerOrganizations/org1.example.com/users/Admin@org1.example. com/msp
+export CORE_PEER_MSPCONFIGPATH=${PWD}/organizations/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp
 export CORE_PEER_TLS_ROOTCERT_FILE=${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt
 export CORE_PEER_ADDRESS=localhost:7051
 
 peer lifecycle chaincode approveformyorg -o localhost:7050 \
-    --ordererTLSHostnameOverride orderer. example.com \
+    --ordererTLSHostnameOverride orderer.example.com \
     --channelID mychannel \
     --name ewaste \
     --version 1.0 \
@@ -104,7 +123,7 @@ echo ""
 echo "✅ Approving for Org2..."
 export CORE_PEER_LOCALMSPID="Org2MSP"
 export CORE_PEER_MSPCONFIGPATH=${PWD}/organizations/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp
-export CORE_PEER_TLS_ROOTCERT_FILE=${PWD}/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca. crt
+export CORE_PEER_TLS_ROOTCERT_FILE=${PWD}/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt
 export CORE_PEER_ADDRESS=localhost:9051
 
 peer lifecycle chaincode approveformyorg -o localhost:7050 \
@@ -115,7 +134,7 @@ peer lifecycle chaincode approveformyorg -o localhost:7050 \
     --package-id $CC_PACKAGE_ID \
     --sequence 1 \
     --tls \
-    --cafile ${PWD}/organizations/ordererOrganizations/example. com/orderers/orderer. example.com/msp/tlscacerts/tlsca-example-com-cert.pem
+    --cafile ${PWD}/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca-example-com-cert.pem
 
 echo "✅ Org2 approved"
 echo ""
@@ -131,7 +150,7 @@ peer lifecycle chaincode commit -o localhost:7050 \
     --tls \
     --cafile ${PWD}/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca-example-com-cert.pem \
     --peerAddresses localhost:7051 \
-    --tlsRootCertFiles ${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca. crt \
+    --tlsRootCertFiles ${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt \
     --peerAddresses localhost:9051 \
     --tlsRootCertFiles ${PWD}/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt
 

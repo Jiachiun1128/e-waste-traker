@@ -3,6 +3,10 @@ set -e
 
 echo "🚀 Starting Hyperledger Fabric Network"
 
+# Check Docker version compatibility
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+source "$SCRIPT_DIR/check-docker-version.sh" || true
+
 cd ~/e-waste-tracker/fabric-samples/test-network
 
 export FABRIC_CFG_PATH=~/e-waste-tracker/fabric-samples/config
