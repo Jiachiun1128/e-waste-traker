@@ -39,8 +39,8 @@ echo ""
 echo "📤 Installing on Org1..."
 export CORE_PEER_TLS_ENABLED=true
 export CORE_PEER_LOCALMSPID="Org1MSP"
-export CORE_PEER_TLS_ROOTCERT_FILE=${PWD}/organizations/peerOrganizations/org1.example. com/peers/peer0.org1.example.com/tls/ca. crt
-export CORE_PEER_MSPCONFIGPATH=${PWD}/organizations/peerOrganizations/org1.example. com/users/Admin@org1.example. com/msp
+export CORE_PEER_TLS_ROOTCERT_FILE=${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt
+export CORE_PEER_MSPCONFIGPATH=${PWD}/organizations/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp
 export CORE_PEER_ADDRESS=localhost:7051
 
 # Create secure temporary file for logs
@@ -85,8 +85,8 @@ echo ""
 # Install on Org2
 echo "📤 Installing on Org2..."
 export CORE_PEER_LOCALMSPID="Org2MSP"
-export CORE_PEER_TLS_ROOTCERT_FILE=${PWD}/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca. crt
-export CORE_PEER_MSPCONFIGPATH=${PWD}/organizations/peerOrganizations/org2.example. com/users/Admin@org2.example.com/msp
+export CORE_PEER_TLS_ROOTCERT_FILE=${PWD}/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt
+export CORE_PEER_MSPCONFIGPATH=${PWD}/organizations/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp
 export CORE_PEER_ADDRESS=localhost:9051
 
 timeout 180 peer lifecycle chaincode install ewaste.tar.gz
@@ -102,12 +102,12 @@ echo ""
 # Approve for Org1
 echo "✅ Approving for Org1..."
 export CORE_PEER_LOCALMSPID="Org1MSP"
-export CORE_PEER_MSPCONFIGPATH=${PWD}/organizations/peerOrganizations/org1.example.com/users/Admin@org1.example. com/msp
+export CORE_PEER_MSPCONFIGPATH=${PWD}/organizations/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp
 export CORE_PEER_TLS_ROOTCERT_FILE=${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt
 export CORE_PEER_ADDRESS=localhost:7051
 
 peer lifecycle chaincode approveformyorg -o localhost:7050 \
-    --ordererTLSHostnameOverride orderer. example.com \
+    --ordererTLSHostnameOverride orderer.example.com \
     --channelID mychannel \
     --name ewaste \
     --version 1.0 \
@@ -123,7 +123,7 @@ echo ""
 echo "✅ Approving for Org2..."
 export CORE_PEER_LOCALMSPID="Org2MSP"
 export CORE_PEER_MSPCONFIGPATH=${PWD}/organizations/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp
-export CORE_PEER_TLS_ROOTCERT_FILE=${PWD}/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca. crt
+export CORE_PEER_TLS_ROOTCERT_FILE=${PWD}/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt
 export CORE_PEER_ADDRESS=localhost:9051
 
 peer lifecycle chaincode approveformyorg -o localhost:7050 \
@@ -134,7 +134,7 @@ peer lifecycle chaincode approveformyorg -o localhost:7050 \
     --package-id $CC_PACKAGE_ID \
     --sequence 1 \
     --tls \
-    --cafile ${PWD}/organizations/ordererOrganizations/example. com/orderers/orderer. example.com/msp/tlscacerts/tlsca-example-com-cert.pem
+    --cafile ${PWD}/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca-example-com-cert.pem
 
 echo "✅ Org2 approved"
 echo ""
@@ -150,7 +150,7 @@ peer lifecycle chaincode commit -o localhost:7050 \
     --tls \
     --cafile ${PWD}/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca-example-com-cert.pem \
     --peerAddresses localhost:7051 \
-    --tlsRootCertFiles ${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca. crt \
+    --tlsRootCertFiles ${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt \
     --peerAddresses localhost:9051 \
     --tlsRootCertFiles ${PWD}/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt
 
