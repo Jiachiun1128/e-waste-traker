@@ -1,0 +1,601 @@
+deviceId,status,owner,location,note,timestamp
+EW-0001,Registered,CollectorC,Kuala Lumpur,Initial registration,2026-01-01T08:49:00Z
+EW-0001,Collected,CollectorC,Kuala Lumpur,Collected from user,2026-01-01T14:49:00Z
+EW-0001,Recycled,RecyclerX,Kuala Lumpur,Final stage: recycled,2026-01-04T02:49:00Z
+EW-0002,Registered,CollectorA,Melaka,Initial registration,2026-01-01T08:46:00Z
+EW-0002,Collected,CollectorA,Melaka,Collected from user,2026-01-02T11:46:00Z
+EW-0002,Disposed,RecyclerY,Kuala Lumpur,Final stage: disposed,2026-01-03T21:46:00Z
+EW-0003,Registered,CollectorB,Kuala Lumpur,Initial registration,2025-12-29T19:01:00Z
+EW-0003,Collected,CollectorB,Kuala Lumpur,Collected from user,2025-12-30T20:01:00Z
+EW-0003,Disposed,RecyclerY,Perak,Final stage: disposed,2025-12-31T14:01:00Z
+EW-0004,Registered,CollectorA,Perak,Initial registration,2025-12-30T22:23:00Z
+EW-0004,Collected,CollectorA,Perak,Collected from user,2026-01-01T15:23:00Z
+EW-0004,Recycled,RecyclerX,Kuala Lumpur,Final stage: recycled,2026-01-03T19:23:00Z
+EW-0005,Registered,CollectorB,Penang,Initial registration,2025-12-31T20:16:00Z
+EW-0005,Collected,CollectorB,Penang,Collected from user,2026-01-02T13:16:00Z
+EW-0005,Recycled,RecyclerY,Penang,Final stage: recycled,2026-01-04T17:16:00Z
+EW-0006,Registered,CollectorC,Melaka,Initial registration,2025-12-30T15:47:00Z
+EW-0006,Collected,CollectorC,Melaka,Collected from user,2025-12-31T02:47:00Z
+EW-0006,Disposed,RecyclerY,Melaka,Final stage: disposed,2026-01-02T19:47:00Z
+EW-0007,Registered,CollectorB,Johor,Initial registration,2025-12-30T18:55:00Z
+EW-0007,Collected,CollectorB,Johor,Collected from user,2025-12-30T23:55:00Z
+EW-0007,Disposed,RecyclerX,Melaka,Final stage: disposed,2026-01-01T08:55:00Z
+EW-0008,Registered,CollectorA,Melaka,Initial registration,2026-01-01T11:00:00Z
+EW-0008,Collected,CollectorA,Melaka,Collected from user,2026-01-02T22:00:00Z
+EW-0008,Disposed,RecyclerY,Penang,Final stage: disposed,2026-01-04T13:00:00Z
+EW-0009,Registered,CollectorA,Selangor,Initial registration,2025-12-30T04:12:00Z
+EW-0009,Collected,CollectorA,Selangor,Collected from user,2026-01-01T00:12:00Z
+EW-0009,Recycled,RecyclerY,Johor,Final stage: recycled,2026-01-03T12:12:00Z
+EW-0010,Registered,CollectorC,Melaka,Initial registration,2025-12-29T22:00:00Z
+EW-0010,Collected,CollectorC,Melaka,Collected from user,2025-12-31T18:00:00Z
+EW-0010,Disposed,RecyclerX,Penang,Final stage: disposed,2026-01-02T10:00:00Z
+EW-0011,Registered,CollectorC,Selangor,Initial registration,2026-01-01T03:40:00Z
+EW-0011,Collected,CollectorC,Selangor,Collected from user,2026-01-01T10:40:00Z
+EW-0011,Recycled,RecyclerX,Penang,Final stage: recycled,2026-01-03T06:40:00Z
+EW-0012,Registered,CollectorB,Johor,Initial registration,2025-12-29T09:01:00Z
+EW-0012,Collected,CollectorB,Johor,Collected from user,2025-12-29T17:01:00Z
+EW-0012,Disposed,RecyclerX,Kuala Lumpur,Final stage: disposed,2025-12-31T21:01:00Z
+EW-0013,Registered,CollectorA,Perak,Initial registration,2025-12-29T23:32:00Z
+EW-0013,Collected,CollectorA,Perak,Collected from user,2025-12-30T08:32:00Z
+EW-0013,Recycled,RecyclerY,Perak,Final stage: recycled,2026-01-02T02:32:00Z
+EW-0014,Registered,CollectorC,Penang,Initial registration,2025-12-31T12:50:00Z
+EW-0014,Collected,CollectorC,Penang,Collected from user,2026-01-02T07:50:00Z
+EW-0014,Disposed,RecyclerY,Kuala Lumpur,Final stage: disposed,2026-01-04T12:50:00Z
+EW-0015,Registered,CollectorC,Selangor,Initial registration,2026-01-01T14:42:00Z
+EW-0015,Collected,CollectorC,Selangor,Collected from user,2026-01-02T05:42:00Z
+EW-0015,Recycled,RecyclerX,Selangor,Final stage: recycled,2026-01-02T11:42:00Z
+EW-0016,Registered,CollectorB,Melaka,Initial registration,2026-01-01T00:38:00Z
+EW-0016,Collected,CollectorB,Melaka,Collected from user,2026-01-01T14:38:00Z
+EW-0016,Disposed,RecyclerX,Johor,Final stage: disposed,2026-01-02T12:38:00Z
+EW-0017,Registered,CollectorB,Johor,Initial registration,2025-12-31T14:29:00Z
+EW-0017,Collected,CollectorB,Johor,Collected from user,2026-01-01T20:29:00Z
+EW-0017,Recycled,RecyclerX,Johor,Final stage: recycled,2026-01-02T08:29:00Z
+EW-0018,Registered,CollectorB,Selangor,Initial registration,2025-12-31T15:58:00Z
+EW-0018,Collected,CollectorB,Selangor,Collected from user,2026-01-01T03:58:00Z
+EW-0018,Disposed,RecyclerX,Kuala Lumpur,Final stage: disposed,2026-01-02T20:58:00Z
+EW-0019,Registered,CollectorA,Kuala Lumpur,Initial registration,2025-12-30T14:38:00Z
+EW-0019,Collected,CollectorA,Kuala Lumpur,Collected from user,2025-12-31T01:38:00Z
+EW-0019,Disposed,RecyclerY,Selangor,Final stage: disposed,2026-01-02T11:38:00Z
+EW-0020,Registered,CollectorB,Johor,Initial registration,2025-12-30T21:18:00Z
+EW-0020,Collected,CollectorB,Johor,Collected from user,2026-01-01T01:18:00Z
+EW-0020,Recycled,RecyclerX,Penang,Final stage: recycled,2026-01-03T21:18:00Z
+EW-0021,Registered,CollectorC,Penang,Initial registration,2025-12-29T14:10:00Z
+EW-0021,Collected,CollectorC,Penang,Collected from user,2025-12-29T18:10:00Z
+EW-0021,Recycled,RecyclerX,Perak,Final stage: recycled,2026-01-01T13:10:00Z
+EW-0022,Registered,CollectorB,Kuala Lumpur,Initial registration,2026-01-01T12:08:00Z
+EW-0022,Collected,CollectorB,Kuala Lumpur,Collected from user,2026-01-02T04:08:00Z
+EW-0022,Recycled,RecyclerY,Melaka,Final stage: recycled,2026-01-02T15:08:00Z
+EW-0023,Registered,CollectorA,Penang,Initial registration,2025-12-31T12:24:00Z
+EW-0023,Collected,CollectorA,Penang,Collected from user,2025-12-31T21:24:00Z
+EW-0023,Disposed,RecyclerY,Kuala Lumpur,Final stage: disposed,2026-01-02T17:24:00Z
+EW-0024,Registered,CollectorA,Perak,Initial registration,2025-12-30T11:28:00Z
+EW-0024,Collected,CollectorA,Perak,Collected from user,2025-12-31T20:28:00Z
+EW-0024,Recycled,RecyclerY,Kuala Lumpur,Final stage: recycled,2026-01-02T11:28:00Z
+EW-0025,Registered,CollectorC,Penang,Initial registration,2026-01-01T06:35:00Z
+EW-0025,Collected,CollectorC,Penang,Collected from user,2026-01-01T07:35:00Z
+EW-0025,Recycled,RecyclerX,Penang,Final stage: recycled,2026-01-03T03:35:00Z
+EW-0026,Registered,CollectorC,Selangor,Initial registration,2025-12-31T05:10:00Z
+EW-0026,Collected,CollectorC,Selangor,Collected from user,2025-12-31T19:10:00Z
+EW-0026,Disposed,RecyclerY,Kuala Lumpur,Final stage: disposed,2026-01-02T10:10:00Z
+EW-0027,Registered,CollectorA,Melaka,Initial registration,2025-12-30T18:07:00Z
+EW-0027,Collected,CollectorA,Melaka,Collected from user,2025-12-31T05:07:00Z
+EW-0027,Disposed,RecyclerX,Kuala Lumpur,Final stage: disposed,2026-01-02T19:07:00Z
+EW-0028,Registered,CollectorC,Perak,Initial registration,2025-12-30T02:35:00Z
+EW-0028,Collected,CollectorC,Perak,Collected from user,2025-12-31T06:35:00Z
+EW-0028,Recycled,RecyclerY,Penang,Final stage: recycled,2026-01-01T04:35:00Z
+EW-0029,Registered,CollectorB,Perak,Initial registration,2025-12-31T13:51:00Z
+EW-0029,Collected,CollectorB,Perak,Collected from user,2026-01-02T05:51:00Z
+EW-0029,Recycled,RecyclerX,Selangor,Final stage: recycled,2026-01-03T06:51:00Z
+EW-0030,Registered,CollectorB,Melaka,Initial registration,2025-12-30T16:14:00Z
+EW-0030,Collected,CollectorB,Melaka,Collected from user,2025-12-31T10:14:00Z
+EW-0030,Recycled,RecyclerY,Kuala Lumpur,Final stage: recycled,2026-01-01T12:14:00Z
+EW-0031,Registered,CollectorB,Penang,Initial registration,2025-12-30T13:26:00Z
+EW-0031,Collected,CollectorB,Penang,Collected from user,2025-12-31T04:26:00Z
+EW-0031,Recycled,RecyclerY,Penang,Final stage: recycled,2025-12-31T13:26:00Z
+EW-0032,Registered,CollectorB,Melaka,Initial registration,2026-01-01T07:34:00Z
+EW-0032,Collected,CollectorB,Melaka,Collected from user,2026-01-02T05:34:00Z
+EW-0032,Recycled,RecyclerY,Selangor,Final stage: recycled,2026-01-02T14:34:00Z
+EW-0033,Registered,CollectorC,Penang,Initial registration,2025-12-31T17:56:00Z
+EW-0033,Collected,CollectorC,Penang,Collected from user,2026-01-02T08:56:00Z
+EW-0033,Recycled,RecyclerY,Perak,Final stage: recycled,2026-01-05T07:56:00Z
+EW-0034,Registered,CollectorC,Perak,Initial registration,2025-12-30T09:16:00Z
+EW-0034,Collected,CollectorC,Perak,Collected from user,2025-12-31T09:16:00Z
+EW-0034,Recycled,RecyclerY,Perak,Final stage: recycled,2026-01-02T22:16:00Z
+EW-0035,Registered,CollectorB,Johor,Initial registration,2025-12-30T22:44:00Z
+EW-0035,Collected,CollectorB,Johor,Collected from user,2026-01-01T10:44:00Z
+EW-0035,Recycled,RecyclerY,Melaka,Final stage: recycled,2026-01-02T08:44:00Z
+EW-0036,Registered,CollectorC,Kuala Lumpur,Initial registration,2025-12-30T23:51:00Z
+EW-0036,Collected,CollectorC,Kuala Lumpur,Collected from user,2025-12-31T18:51:00Z
+EW-0036,Disposed,RecyclerY,Johor,Final stage: disposed,2026-01-02T02:51:00Z
+EW-0037,Registered,CollectorC,Kuala Lumpur,Initial registration,2025-12-30T21:06:00Z
+EW-0037,Collected,CollectorC,Kuala Lumpur,Collected from user,2026-01-01T06:06:00Z
+EW-0037,Recycled,RecyclerX,Melaka,Final stage: recycled,2026-01-03T06:06:00Z
+EW-0038,Registered,CollectorA,Johor,Initial registration,2025-12-29T16:18:00Z
+EW-0038,Collected,CollectorA,Johor,Collected from user,2025-12-30T22:18:00Z
+EW-0038,Recycled,RecyclerY,Johor,Final stage: recycled,2026-01-02T09:18:00Z
+EW-0039,Registered,CollectorA,Johor,Initial registration,2025-12-30T12:14:00Z
+EW-0039,Collected,CollectorA,Johor,Collected from user,2025-12-31T00:14:00Z
+EW-0039,Disposed,RecyclerX,Perak,Final stage: disposed,2026-01-03T00:14:00Z
+EW-0040,Registered,CollectorC,Perak,Initial registration,2026-01-01T10:40:00Z
+EW-0040,Collected,CollectorC,Perak,Collected from user,2026-01-03T01:40:00Z
+EW-0040,Disposed,RecyclerY,Perak,Final stage: disposed,2026-01-04T23:40:00Z
+EW-0041,Registered,CollectorC,Penang,Initial registration,2026-01-01T05:32:00Z
+EW-0041,Collected,CollectorC,Penang,Collected from user,2026-01-02T13:32:00Z
+EW-0041,Disposed,RecyclerY,Kuala Lumpur,Final stage: disposed,2026-01-04T01:32:00Z
+EW-0042,Registered,CollectorA,Selangor,Initial registration,2025-12-30T02:57:00Z
+EW-0042,Collected,CollectorA,Selangor,Collected from user,2025-12-30T17:57:00Z
+EW-0042,Recycled,RecyclerX,Kuala Lumpur,Final stage: recycled,2026-01-02T00:57:00Z
+EW-0043,Registered,CollectorA,Selangor,Initial registration,2025-12-31T15:43:00Z
+EW-0043,Collected,CollectorA,Selangor,Collected from user,2026-01-01T16:43:00Z
+EW-0043,Disposed,RecyclerY,Kuala Lumpur,Final stage: disposed,2026-01-02T00:43:00Z
+EW-0044,Registered,CollectorC,Melaka,Initial registration,2026-01-01T08:55:00Z
+EW-0044,Collected,CollectorC,Melaka,Collected from user,2026-01-02T23:55:00Z
+EW-0044,Disposed,RecyclerX,Penang,Final stage: disposed,2026-01-04T09:55:00Z
+EW-0045,Registered,CollectorC,Selangor,Initial registration,2025-12-31T22:10:00Z
+EW-0045,Collected,CollectorC,Selangor,Collected from user,2026-01-01T07:10:00Z
+EW-0045,Disposed,RecyclerX,Kuala Lumpur,Final stage: disposed,2026-01-01T16:10:00Z
+EW-0046,Registered,CollectorB,Penang,Initial registration,2025-12-30T11:15:00Z
+EW-0046,Collected,CollectorB,Penang,Collected from user,2025-12-31T17:15:00Z
+EW-0046,Disposed,RecyclerY,Penang,Final stage: disposed,2026-01-02T16:15:00Z
+EW-0047,Registered,CollectorA,Penang,Initial registration,2025-12-30T12:58:00Z
+EW-0047,Collected,CollectorA,Penang,Collected from user,2026-01-01T06:58:00Z
+EW-0047,Recycled,RecyclerX,Selangor,Final stage: recycled,2026-01-01T20:58:00Z
+EW-0048,Registered,CollectorB,Melaka,Initial registration,2025-12-29T21:59:00Z
+EW-0048,Collected,CollectorB,Melaka,Collected from user,2025-12-31T10:59:00Z
+EW-0048,Disposed,RecyclerY,Penang,Final stage: disposed,2026-01-01T19:59:00Z
+EW-0049,Registered,CollectorA,Penang,Initial registration,2025-12-29T21:07:00Z
+EW-0049,Collected,CollectorA,Penang,Collected from user,2025-12-31T11:07:00Z
+EW-0049,Disposed,RecyclerY,Johor,Final stage: disposed,2025-12-31T20:07:00Z
+EW-0050,Registered,CollectorA,Melaka,Initial registration,2025-12-30T23:32:00Z
+EW-0050,Collected,CollectorA,Melaka,Collected from user,2026-01-01T19:32:00Z
+EW-0050,Recycled,RecyclerY,Perak,Final stage: recycled,2026-01-02T16:32:00Z
+EW-0051,Registered,CollectorA,Johor,Initial registration,2026-01-01T01:17:00Z
+EW-0051,Collected,CollectorA,Johor,Collected from user,2026-01-01T08:17:00Z
+EW-0051,Disposed,RecyclerY,Melaka,Final stage: disposed,2026-01-03T21:17:00Z
+EW-0052,Registered,CollectorC,Perak,Initial registration,2026-01-01T00:22:00Z
+EW-0052,Collected,CollectorC,Perak,Collected from user,2026-01-02T06:22:00Z
+EW-0052,Disposed,RecyclerY,Selangor,Final stage: disposed,2026-01-04T19:22:00Z
+EW-0053,Registered,CollectorC,Perak,Initial registration,2025-12-31T10:06:00Z
+EW-0053,Collected,CollectorC,Perak,Collected from user,2026-01-01T08:06:00Z
+EW-0053,Disposed,RecyclerY,Selangor,Final stage: disposed,2026-01-01T17:06:00Z
+EW-0054,Registered,CollectorB,Perak,Initial registration,2025-12-30T20:05:00Z
+EW-0054,Collected,CollectorB,Perak,Collected from user,2026-01-01T08:05:00Z
+EW-0054,Recycled,RecyclerX,Selangor,Final stage: recycled,2026-01-01T15:05:00Z
+EW-0055,Registered,CollectorC,Melaka,Initial registration,2026-01-01T01:22:00Z
+EW-0055,Collected,CollectorC,Melaka,Collected from user,2026-01-02T06:22:00Z
+EW-0055,Recycled,RecyclerY,Selangor,Final stage: recycled,2026-01-02T14:22:00Z
+EW-0056,Registered,CollectorB,Perak,Initial registration,2026-01-01T06:51:00Z
+EW-0056,Collected,CollectorB,Perak,Collected from user,2026-01-02T05:51:00Z
+EW-0056,Disposed,RecyclerY,Melaka,Final stage: disposed,2026-01-04T17:51:00Z
+EW-0057,Registered,CollectorC,Selangor,Initial registration,2025-12-31T01:26:00Z
+EW-0057,Collected,CollectorC,Selangor,Collected from user,2025-12-31T09:26:00Z
+EW-0057,Recycled,RecyclerX,Melaka,Final stage: recycled,2026-01-01T14:26:00Z
+EW-0058,Registered,CollectorC,Penang,Initial registration,2025-12-29T20:05:00Z
+EW-0058,Collected,CollectorC,Penang,Collected from user,2025-12-30T09:05:00Z
+EW-0058,Recycled,RecyclerY,Selangor,Final stage: recycled,2026-01-01T04:05:00Z
+EW-0059,Registered,CollectorA,Perak,Initial registration,2025-12-30T22:15:00Z
+EW-0059,Collected,CollectorA,Perak,Collected from user,2026-01-01T19:15:00Z
+EW-0059,Disposed,RecyclerX,Kuala Lumpur,Final stage: disposed,2026-01-02T17:15:00Z
+EW-0060,Registered,CollectorA,Penang,Initial registration,2025-12-31T23:35:00Z
+EW-0060,Collected,CollectorA,Penang,Collected from user,2026-01-01T07:35:00Z
+EW-0060,Disposed,RecyclerY,Kuala Lumpur,Final stage: disposed,2026-01-01T21:35:00Z
+EW-0061,Registered,CollectorA,Selangor,Initial registration,2025-12-29T22:32:00Z
+EW-0061,Collected,CollectorA,Selangor,Collected from user,2025-12-31T10:32:00Z
+EW-0061,Recycled,RecyclerY,Johor,Final stage: recycled,2026-01-02T21:32:00Z
+EW-0062,Registered,CollectorC,Perak,Initial registration,2025-12-29T14:35:00Z
+EW-0062,Collected,CollectorC,Perak,Collected from user,2025-12-31T06:35:00Z
+EW-0062,Recycled,RecyclerX,Penang,Final stage: recycled,2026-01-01T00:35:00Z
+EW-0063,Registered,CollectorA,Kuala Lumpur,Initial registration,2025-12-31T14:08:00Z
+EW-0063,Collected,CollectorA,Kuala Lumpur,Collected from user,2026-01-01T19:08:00Z
+EW-0063,Disposed,RecyclerX,Selangor,Final stage: disposed,2026-01-04T13:08:00Z
+EW-0064,Registered,CollectorB,Melaka,Initial registration,2026-01-01T14:53:00Z
+EW-0064,Collected,CollectorB,Melaka,Collected from user,2026-01-03T09:53:00Z
+EW-0064,Disposed,RecyclerX,Perak,Final stage: disposed,2026-01-04T16:53:00Z
+EW-0065,Registered,CollectorA,Selangor,Initial registration,2025-12-31T00:21:00Z
+EW-0065,Collected,CollectorA,Selangor,Collected from user,2026-01-01T15:21:00Z
+EW-0065,Disposed,RecyclerX,Johor,Final stage: disposed,2026-01-03T09:21:00Z
+EW-0066,Registered,CollectorB,Kuala Lumpur,Initial registration,2026-01-01T16:01:00Z
+EW-0066,Collected,CollectorB,Kuala Lumpur,Collected from user,2026-01-01T19:01:00Z
+EW-0066,Disposed,RecyclerY,Kuala Lumpur,Final stage: disposed,2026-01-04T08:01:00Z
+EW-0067,Registered,CollectorC,Penang,Initial registration,2026-01-01T13:02:00Z
+EW-0067,Collected,CollectorC,Penang,Collected from user,2026-01-01T16:02:00Z
+EW-0067,Disposed,RecyclerY,Penang,Final stage: disposed,2026-01-02T20:02:00Z
+EW-0068,Registered,CollectorA,Johor,Initial registration,2025-12-31T05:52:00Z
+EW-0068,Collected,CollectorA,Johor,Collected from user,2026-01-01T08:52:00Z
+EW-0068,Disposed,RecyclerX,Selangor,Final stage: disposed,2026-01-03T08:52:00Z
+EW-0069,Registered,CollectorC,Kuala Lumpur,Initial registration,2025-12-31T20:27:00Z
+EW-0069,Collected,CollectorC,Kuala Lumpur,Collected from user,2026-01-01T02:27:00Z
+EW-0069,Disposed,RecyclerY,Kuala Lumpur,Final stage: disposed,2026-01-03T00:27:00Z
+EW-0070,Registered,CollectorB,Johor,Initial registration,2025-12-29T13:46:00Z
+EW-0070,Collected,CollectorB,Johor,Collected from user,2025-12-30T02:46:00Z
+EW-0070,Disposed,RecyclerY,Melaka,Final stage: disposed,2026-01-02T02:46:00Z
+EW-0071,Registered,CollectorB,Johor,Initial registration,2026-01-01T00:32:00Z
+EW-0071,Collected,CollectorB,Johor,Collected from user,2026-01-01T08:32:00Z
+EW-0071,Recycled,RecyclerX,Penang,Final stage: recycled,2026-01-01T17:32:00Z
+EW-0072,Registered,CollectorB,Kuala Lumpur,Initial registration,2025-12-30T03:23:00Z
+EW-0072,Collected,CollectorB,Kuala Lumpur,Collected from user,2025-12-31T11:23:00Z
+EW-0072,Disposed,RecyclerY,Johor,Final stage: disposed,2026-01-02T06:23:00Z
+EW-0073,Registered,CollectorA,Perak,Initial registration,2026-01-01T03:45:00Z
+EW-0073,Collected,CollectorA,Perak,Collected from user,2026-01-03T03:45:00Z
+EW-0073,Recycled,RecyclerY,Johor,Final stage: recycled,2026-01-04T02:45:00Z
+EW-0074,Registered,CollectorC,Penang,Initial registration,2026-01-01T14:30:00Z
+EW-0074,Collected,CollectorC,Penang,Collected from user,2026-01-03T04:30:00Z
+EW-0074,Recycled,RecyclerY,Perak,Final stage: recycled,2026-01-06T00:30:00Z
+EW-0075,Registered,CollectorB,Johor,Initial registration,2025-12-31T02:18:00Z
+EW-0075,Collected,CollectorB,Johor,Collected from user,2025-12-31T15:18:00Z
+EW-0075,Disposed,RecyclerX,Johor,Final stage: disposed,2026-01-02T03:18:00Z
+EW-0076,Registered,CollectorB,Melaka,Initial registration,2025-12-30T03:08:00Z
+EW-0076,Collected,CollectorB,Melaka,Collected from user,2025-12-31T11:08:00Z
+EW-0076,Recycled,RecyclerY,Kuala Lumpur,Final stage: recycled,2025-12-31T21:08:00Z
+EW-0077,Registered,CollectorC,Selangor,Initial registration,2025-12-31T14:20:00Z
+EW-0077,Collected,CollectorC,Selangor,Collected from user,2026-01-02T08:20:00Z
+EW-0077,Recycled,RecyclerY,Penang,Final stage: recycled,2026-01-03T09:20:00Z
+EW-0078,Registered,CollectorC,Perak,Initial registration,2025-12-31T10:15:00Z
+EW-0078,Collected,CollectorC,Perak,Collected from user,2026-01-01T07:15:00Z
+EW-0078,Recycled,RecyclerX,Selangor,Final stage: recycled,2026-01-04T03:15:00Z
+EW-0079,Registered,CollectorC,Melaka,Initial registration,2025-12-29T20:05:00Z
+EW-0079,Collected,CollectorC,Melaka,Collected from user,2025-12-31T01:05:00Z
+EW-0079,Disposed,RecyclerX,Kuala Lumpur,Final stage: disposed,2026-01-01T04:05:00Z
+EW-0080,Registered,CollectorA,Selangor,Initial registration,2026-01-01T06:53:00Z
+EW-0080,Collected,CollectorA,Selangor,Collected from user,2026-01-02T09:53:00Z
+EW-0080,Recycled,RecyclerX,Kuala Lumpur,Final stage: recycled,2026-01-03T14:53:00Z
+EW-0081,Registered,CollectorA,Selangor,Initial registration,2025-12-31T21:19:00Z
+EW-0081,Collected,CollectorA,Selangor,Collected from user,2026-01-02T14:19:00Z
+EW-0081,Disposed,RecyclerY,Melaka,Final stage: disposed,2026-01-04T04:19:00Z
+EW-0082,Registered,CollectorA,Johor,Initial registration,2025-12-31T05:32:00Z
+EW-0082,Collected,CollectorA,Johor,Collected from user,2026-01-01T19:32:00Z
+EW-0082,Disposed,RecyclerY,Johor,Final stage: disposed,2026-01-03T15:32:00Z
+EW-0083,Registered,CollectorA,Johor,Initial registration,2026-01-01T12:27:00Z
+EW-0083,Collected,CollectorA,Johor,Collected from user,2026-01-02T11:27:00Z
+EW-0083,Disposed,RecyclerX,Melaka,Final stage: disposed,2026-01-04T06:27:00Z
+EW-0084,Registered,CollectorC,Melaka,Initial registration,2026-01-01T02:11:00Z
+EW-0084,Collected,CollectorC,Melaka,Collected from user,2026-01-01T21:11:00Z
+EW-0084,Disposed,RecyclerX,Melaka,Final stage: disposed,2026-01-03T08:11:00Z
+EW-0085,Registered,CollectorC,Kuala Lumpur,Initial registration,2025-12-29T11:44:00Z
+EW-0085,Collected,CollectorC,Kuala Lumpur,Collected from user,2025-12-30T07:44:00Z
+EW-0085,Recycled,RecyclerY,Melaka,Final stage: recycled,2026-01-01T21:44:00Z
+EW-0086,Registered,CollectorA,Selangor,Initial registration,2025-12-30T00:24:00Z
+EW-0086,Collected,CollectorA,Selangor,Collected from user,2025-12-31T11:24:00Z
+EW-0086,Disposed,RecyclerX,Penang,Final stage: disposed,2026-01-02T15:24:00Z
+EW-0087,Registered,CollectorA,Selangor,Initial registration,2025-12-30T13:10:00Z
+EW-0087,Collected,CollectorA,Selangor,Collected from user,2026-01-01T09:10:00Z
+EW-0087,Disposed,RecyclerX,Johor,Final stage: disposed,2026-01-03T17:10:00Z
+EW-0088,Registered,CollectorC,Melaka,Initial registration,2025-12-30T18:09:00Z
+EW-0088,Collected,CollectorC,Melaka,Collected from user,2026-01-01T08:09:00Z
+EW-0088,Disposed,RecyclerX,Melaka,Final stage: disposed,2026-01-03T14:09:00Z
+EW-0089,Registered,CollectorB,Perak,Initial registration,2025-12-30T12:35:00Z
+EW-0089,Collected,CollectorB,Perak,Collected from user,2026-01-01T06:35:00Z
+EW-0089,Disposed,RecyclerY,Melaka,Final stage: disposed,2026-01-01T20:35:00Z
+EW-0090,Registered,CollectorB,Johor,Initial registration,2025-12-29T22:13:00Z
+EW-0090,Collected,CollectorB,Johor,Collected from user,2025-12-30T05:13:00Z
+EW-0090,Recycled,RecyclerY,Johor,Final stage: recycled,2025-12-31T17:13:00Z
+EW-0091,Registered,CollectorB,Melaka,Initial registration,2025-12-29T19:53:00Z
+EW-0091,Collected,CollectorB,Melaka,Collected from user,2025-12-31T03:53:00Z
+EW-0091,Disposed,RecyclerX,Melaka,Final stage: disposed,2026-01-02T13:53:00Z
+EW-0092,Registered,CollectorB,Kuala Lumpur,Initial registration,2025-12-31T08:31:00Z
+EW-0092,Collected,CollectorB,Kuala Lumpur,Collected from user,2026-01-01T19:31:00Z
+EW-0092,Recycled,RecyclerY,Penang,Final stage: recycled,2026-01-03T22:31:00Z
+EW-0093,Registered,CollectorC,Melaka,Initial registration,2026-01-01T15:53:00Z
+EW-0093,Collected,CollectorC,Melaka,Collected from user,2026-01-01T17:53:00Z
+EW-0093,Disposed,RecyclerX,Selangor,Final stage: disposed,2026-01-02T05:53:00Z
+EW-0094,Registered,CollectorA,Penang,Initial registration,2025-12-30T02:30:00Z
+EW-0094,Collected,CollectorA,Penang,Collected from user,2025-12-31T17:30:00Z
+EW-0094,Disposed,RecyclerX,Selangor,Final stage: disposed,2025-12-31T23:30:00Z
+EW-0095,Registered,CollectorA,Kuala Lumpur,Initial registration,2025-12-31T07:16:00Z
+EW-0095,Collected,CollectorA,Kuala Lumpur,Collected from user,2025-12-31T23:16:00Z
+EW-0095,Recycled,RecyclerX,Penang,Final stage: recycled,2026-01-02T22:16:00Z
+EW-0096,Registered,CollectorB,Johor,Initial registration,2025-12-31T07:47:00Z
+EW-0096,Collected,CollectorB,Johor,Collected from user,2026-01-01T16:47:00Z
+EW-0096,Disposed,RecyclerX,Perak,Final stage: disposed,2026-01-02T11:47:00Z
+EW-0097,Registered,CollectorA,Johor,Initial registration,2025-12-31T13:12:00Z
+EW-0097,Collected,CollectorA,Johor,Collected from user,2026-01-01T17:12:00Z
+EW-0097,Disposed,RecyclerY,Kuala Lumpur,Final stage: disposed,2026-01-02T12:12:00Z
+EW-0098,Registered,CollectorB,Perak,Initial registration,2026-01-01T14:17:00Z
+EW-0098,Collected,CollectorB,Perak,Collected from user,2026-01-03T02:17:00Z
+EW-0098,Disposed,RecyclerY,Johor,Final stage: disposed,2026-01-05T01:17:00Z
+EW-0099,Registered,CollectorC,Selangor,Initial registration,2025-12-31T17:05:00Z
+EW-0099,Collected,CollectorC,Selangor,Collected from user,2026-01-01T22:05:00Z
+EW-0099,Disposed,RecyclerY,Johor,Final stage: disposed,2026-01-03T09:05:00Z
+EW-0100,Registered,CollectorC,Penang,Initial registration,2025-12-31T09:28:00Z
+EW-0100,Collected,CollectorC,Penang,Collected from user,2025-12-31T19:28:00Z
+EW-0100,Recycled,RecyclerX,Kuala Lumpur,Final stage: recycled,2026-01-03T13:28:00Z
+EW-0101,Registered,CollectorA,Perak,Initial registration,2025-12-29T14:33:00Z
+EW-0101,Collected,CollectorA,Perak,Collected from user,2025-12-31T04:33:00Z
+EW-0101,Recycled,RecyclerY,Penang,Final stage: recycled,2026-01-02T04:33:00Z
+EW-0102,Registered,CollectorA,Perak,Initial registration,2026-01-01T03:38:00Z
+EW-0102,Collected,CollectorA,Perak,Collected from user,2026-01-01T17:38:00Z
+EW-0102,Disposed,RecyclerX,Kuala Lumpur,Final stage: disposed,2026-01-02T18:38:00Z
+EW-0103,Registered,CollectorC,Selangor,Initial registration,2025-12-31T16:57:00Z
+EW-0103,Collected,CollectorC,Selangor,Collected from user,2026-01-02T04:57:00Z
+EW-0103,Disposed,RecyclerX,Selangor,Final stage: disposed,2026-01-02T13:57:00Z
+EW-0104,Registered,CollectorA,Perak,Initial registration,2025-12-31T13:05:00Z
+EW-0104,Collected,CollectorA,Perak,Collected from user,2025-12-31T18:05:00Z
+EW-0104,Recycled,RecyclerX,Melaka,Final stage: recycled,2026-01-01T18:05:00Z
+EW-0105,Registered,CollectorB,Penang,Initial registration,2025-12-31T02:39:00Z
+EW-0105,Collected,CollectorB,Penang,Collected from user,2026-01-01T15:39:00Z
+EW-0105,Recycled,RecyclerX,Selangor,Final stage: recycled,2026-01-02T07:39:00Z
+EW-0106,Registered,CollectorB,Perak,Initial registration,2025-12-31T18:43:00Z
+EW-0106,Collected,CollectorB,Perak,Collected from user,2026-01-01T21:43:00Z
+EW-0106,Recycled,RecyclerX,Penang,Final stage: recycled,2026-01-03T13:43:00Z
+EW-0107,Registered,CollectorB,Perak,Initial registration,2025-12-31T00:28:00Z
+EW-0107,Collected,CollectorB,Perak,Collected from user,2025-12-31T03:28:00Z
+EW-0107,Disposed,RecyclerX,Kuala Lumpur,Final stage: disposed,2026-01-01T13:28:00Z
+EW-0108,Registered,CollectorB,Penang,Initial registration,2025-12-29T22:44:00Z
+EW-0108,Collected,CollectorB,Penang,Collected from user,2025-12-29T23:44:00Z
+EW-0108,Disposed,RecyclerX,Selangor,Final stage: disposed,2026-01-01T20:44:00Z
+EW-0109,Registered,CollectorA,Johor,Initial registration,2025-12-29T12:08:00Z
+EW-0109,Collected,CollectorA,Johor,Collected from user,2025-12-30T16:08:00Z
+EW-0109,Disposed,RecyclerX,Penang,Final stage: disposed,2025-12-31T00:08:00Z
+EW-0110,Registered,CollectorB,Kuala Lumpur,Initial registration,2025-12-31T13:40:00Z
+EW-0110,Collected,CollectorB,Kuala Lumpur,Collected from user,2025-12-31T15:40:00Z
+EW-0110,Recycled,RecyclerY,Melaka,Final stage: recycled,2026-01-02T14:40:00Z
+EW-0111,Registered,CollectorB,Perak,Initial registration,2025-12-31T13:02:00Z
+EW-0111,Collected,CollectorB,Perak,Collected from user,2026-01-01T23:02:00Z
+EW-0111,Disposed,RecyclerY,Melaka,Final stage: disposed,2026-01-02T15:02:00Z
+EW-0112,Registered,CollectorC,Melaka,Initial registration,2025-12-29T21:56:00Z
+EW-0112,Collected,CollectorC,Melaka,Collected from user,2025-12-31T07:56:00Z
+EW-0112,Recycled,RecyclerY,Penang,Final stage: recycled,2026-01-03T06:56:00Z
+EW-0113,Registered,CollectorA,Perak,Initial registration,2025-12-30T03:14:00Z
+EW-0113,Collected,CollectorA,Perak,Collected from user,2025-12-31T21:14:00Z
+EW-0113,Recycled,RecyclerY,Johor,Final stage: recycled,2026-01-01T12:14:00Z
+EW-0114,Registered,CollectorA,Johor,Initial registration,2025-12-29T15:41:00Z
+EW-0114,Collected,CollectorA,Johor,Collected from user,2025-12-30T22:41:00Z
+EW-0114,Disposed,RecyclerY,Perak,Final stage: disposed,2026-01-02T12:41:00Z
+EW-0115,Registered,CollectorB,Kuala Lumpur,Initial registration,2025-12-29T14:08:00Z
+EW-0115,Collected,CollectorB,Kuala Lumpur,Collected from user,2025-12-30T14:08:00Z
+EW-0115,Recycled,RecyclerX,Perak,Final stage: recycled,2026-01-01T08:08:00Z
+EW-0116,Registered,CollectorB,Perak,Initial registration,2025-12-30T08:04:00Z
+EW-0116,Collected,CollectorB,Perak,Collected from user,2025-12-31T05:04:00Z
+EW-0116,Recycled,RecyclerX,Johor,Final stage: recycled,2026-01-02T23:04:00Z
+EW-0117,Registered,CollectorA,Selangor,Initial registration,2025-12-31T18:08:00Z
+EW-0117,Collected,CollectorA,Selangor,Collected from user,2026-01-01T23:08:00Z
+EW-0117,Recycled,RecyclerY,Penang,Final stage: recycled,2026-01-04T23:08:00Z
+EW-0118,Registered,CollectorA,Melaka,Initial registration,2025-12-31T04:03:00Z
+EW-0118,Collected,CollectorA,Melaka,Collected from user,2025-12-31T09:03:00Z
+EW-0118,Recycled,RecyclerY,Penang,Final stage: recycled,2026-01-02T09:03:00Z
+EW-0119,Registered,CollectorC,Selangor,Initial registration,2025-12-31T06:07:00Z
+EW-0119,Collected,CollectorC,Selangor,Collected from user,2026-01-01T02:07:00Z
+EW-0119,Recycled,RecyclerX,Penang,Final stage: recycled,2026-01-03T10:07:00Z
+EW-0120,Registered,CollectorA,Melaka,Initial registration,2025-12-31T16:10:00Z
+EW-0120,Collected,CollectorA,Melaka,Collected from user,2026-01-02T01:10:00Z
+EW-0120,Recycled,RecyclerY,Penang,Final stage: recycled,2026-01-04T05:10:00Z
+EW-0121,Registered,CollectorA,Selangor,Initial registration,2025-12-30T01:08:00Z
+EW-0121,Collected,CollectorA,Selangor,Collected from user,2025-12-30T11:08:00Z
+EW-0121,Disposed,RecyclerX,Perak,Final stage: disposed,2025-12-31T02:08:00Z
+EW-0122,Registered,CollectorA,Selangor,Initial registration,2025-12-30T07:03:00Z
+EW-0122,Collected,CollectorA,Selangor,Collected from user,2026-01-01T04:03:00Z
+EW-0122,Disposed,RecyclerX,Johor,Final stage: disposed,2026-01-02T07:03:00Z
+EW-0123,Registered,CollectorA,Perak,Initial registration,2025-12-30T15:01:00Z
+EW-0123,Collected,CollectorA,Perak,Collected from user,2025-12-31T11:01:00Z
+EW-0123,Recycled,RecyclerY,Melaka,Final stage: recycled,2026-01-03T05:01:00Z
+EW-0124,Registered,CollectorC,Johor,Initial registration,2025-12-30T04:29:00Z
+EW-0124,Collected,CollectorC,Johor,Collected from user,2025-12-30T17:29:00Z
+EW-0124,Disposed,RecyclerX,Melaka,Final stage: disposed,2025-12-31T16:29:00Z
+EW-0125,Registered,CollectorA,Penang,Initial registration,2025-12-29T17:49:00Z
+EW-0125,Collected,CollectorA,Penang,Collected from user,2025-12-30T04:49:00Z
+EW-0125,Disposed,RecyclerX,Johor,Final stage: disposed,2025-12-31T20:49:00Z
+EW-0126,Registered,CollectorB,Kuala Lumpur,Initial registration,2025-12-31T12:29:00Z
+EW-0126,Collected,CollectorB,Kuala Lumpur,Collected from user,2026-01-01T21:29:00Z
+EW-0126,Recycled,RecyclerY,Kuala Lumpur,Final stage: recycled,2026-01-04T02:29:00Z
+EW-0127,Registered,CollectorC,Melaka,Initial registration,2025-12-31T04:08:00Z
+EW-0127,Collected,CollectorC,Melaka,Collected from user,2025-12-31T14:08:00Z
+EW-0127,Recycled,RecyclerY,Johor,Final stage: recycled,2026-01-01T13:08:00Z
+EW-0128,Registered,CollectorA,Penang,Initial registration,2025-12-30T11:48:00Z
+EW-0128,Collected,CollectorA,Penang,Collected from user,2025-12-30T21:48:00Z
+EW-0128,Recycled,RecyclerY,Selangor,Final stage: recycled,2026-01-02T09:48:00Z
+EW-0129,Registered,CollectorB,Kuala Lumpur,Initial registration,2025-12-29T21:30:00Z
+EW-0129,Collected,CollectorB,Kuala Lumpur,Collected from user,2025-12-31T05:30:00Z
+EW-0129,Recycled,RecyclerX,Penang,Final stage: recycled,2025-12-31T13:30:00Z
+EW-0130,Registered,CollectorB,Selangor,Initial registration,2025-12-29T18:03:00Z
+EW-0130,Collected,CollectorB,Selangor,Collected from user,2025-12-31T04:03:00Z
+EW-0130,Recycled,RecyclerX,Johor,Final stage: recycled,2026-01-02T08:03:00Z
+EW-0131,Registered,CollectorC,Kuala Lumpur,Initial registration,2025-12-31T07:07:00Z
+EW-0131,Collected,CollectorC,Kuala Lumpur,Collected from user,2025-12-31T12:07:00Z
+EW-0131,Recycled,RecyclerX,Perak,Final stage: recycled,2026-01-02T14:07:00Z
+EW-0132,Registered,CollectorC,Selangor,Initial registration,2025-12-31T21:48:00Z
+EW-0132,Collected,CollectorC,Selangor,Collected from user,2026-01-02T18:48:00Z
+EW-0132,Recycled,RecyclerX,Kuala Lumpur,Final stage: recycled,2026-01-05T13:48:00Z
+EW-0133,Registered,CollectorA,Penang,Initial registration,2025-12-31T00:42:00Z
+EW-0133,Collected,CollectorA,Penang,Collected from user,2026-01-01T09:42:00Z
+EW-0133,Disposed,RecyclerY,Kuala Lumpur,Final stage: disposed,2026-01-03T17:42:00Z
+EW-0134,Registered,CollectorC,Penang,Initial registration,2025-12-30T19:40:00Z
+EW-0134,Collected,CollectorC,Penang,Collected from user,2025-12-31T03:40:00Z
+EW-0134,Disposed,RecyclerY,Melaka,Final stage: disposed,2026-01-02T08:40:00Z
+EW-0135,Registered,CollectorC,Johor,Initial registration,2025-12-31T08:31:00Z
+EW-0135,Collected,CollectorC,Johor,Collected from user,2026-01-01T18:31:00Z
+EW-0135,Recycled,RecyclerY,Kuala Lumpur,Final stage: recycled,2026-01-03T10:31:00Z
+EW-0136,Registered,CollectorA,Kuala Lumpur,Initial registration,2025-12-31T03:08:00Z
+EW-0136,Collected,CollectorA,Kuala Lumpur,Collected from user,2026-01-01T22:08:00Z
+EW-0136,Disposed,RecyclerY,Perak,Final stage: disposed,2026-01-03T17:08:00Z
+EW-0137,Registered,CollectorC,Penang,Initial registration,2025-12-31T17:45:00Z
+EW-0137,Collected,CollectorC,Penang,Collected from user,2026-01-01T11:45:00Z
+EW-0137,Recycled,RecyclerY,Penang,Final stage: recycled,2026-01-02T00:45:00Z
+EW-0138,Registered,CollectorA,Selangor,Initial registration,2025-12-29T15:32:00Z
+EW-0138,Collected,CollectorA,Selangor,Collected from user,2025-12-30T07:32:00Z
+EW-0138,Disposed,RecyclerY,Perak,Final stage: disposed,2026-01-01T11:32:00Z
+EW-0139,Registered,CollectorB,Johor,Initial registration,2025-12-29T16:51:00Z
+EW-0139,Collected,CollectorB,Johor,Collected from user,2025-12-31T05:51:00Z
+EW-0139,Disposed,RecyclerY,Penang,Final stage: disposed,2026-01-01T04:51:00Z
+EW-0140,Registered,CollectorB,Perak,Initial registration,2025-12-31T11:12:00Z
+EW-0140,Collected,CollectorB,Perak,Collected from user,2026-01-01T23:12:00Z
+EW-0140,Disposed,RecyclerY,Melaka,Final stage: disposed,2026-01-02T20:12:00Z
+EW-0141,Registered,CollectorA,Kuala Lumpur,Initial registration,2025-12-30T00:53:00Z
+EW-0141,Collected,CollectorA,Kuala Lumpur,Collected from user,2025-12-30T05:53:00Z
+EW-0141,Recycled,RecyclerY,Kuala Lumpur,Final stage: recycled,2026-01-01T20:53:00Z
+EW-0142,Registered,CollectorB,Selangor,Initial registration,2025-12-30T06:08:00Z
+EW-0142,Collected,CollectorB,Selangor,Collected from user,2025-12-31T06:08:00Z
+EW-0142,Recycled,RecyclerX,Selangor,Final stage: recycled,2026-01-03T05:08:00Z
+EW-0143,Registered,CollectorC,Penang,Initial registration,2025-12-31T22:10:00Z
+EW-0143,Collected,CollectorC,Penang,Collected from user,2026-01-02T10:10:00Z
+EW-0143,Recycled,RecyclerX,Penang,Final stage: recycled,2026-01-03T08:10:00Z
+EW-0144,Registered,CollectorC,Kuala Lumpur,Initial registration,2025-12-29T23:28:00Z
+EW-0144,Collected,CollectorC,Kuala Lumpur,Collected from user,2025-12-30T20:28:00Z
+EW-0144,Disposed,RecyclerY,Melaka,Final stage: disposed,2025-12-31T11:28:00Z
+EW-0145,Registered,CollectorA,Johor,Initial registration,2026-01-01T03:01:00Z
+EW-0145,Collected,CollectorA,Johor,Collected from user,2026-01-01T07:01:00Z
+EW-0145,Recycled,RecyclerY,Selangor,Final stage: recycled,2026-01-02T04:01:00Z
+EW-0146,Registered,CollectorB,Kuala Lumpur,Initial registration,2025-12-30T16:34:00Z
+EW-0146,Collected,CollectorB,Kuala Lumpur,Collected from user,2025-12-31T05:34:00Z
+EW-0146,Recycled,RecyclerY,Perak,Final stage: recycled,2026-01-01T22:34:00Z
+EW-0147,Registered,CollectorA,Selangor,Initial registration,2026-01-01T16:59:00Z
+EW-0147,Collected,CollectorA,Selangor,Collected from user,2026-01-02T14:59:00Z
+EW-0147,Recycled,RecyclerX,Kuala Lumpur,Final stage: recycled,2026-01-03T01:59:00Z
+EW-0148,Registered,CollectorB,Melaka,Initial registration,2026-01-01T08:51:00Z
+EW-0148,Collected,CollectorB,Melaka,Collected from user,2026-01-02T03:51:00Z
+EW-0148,Disposed,RecyclerX,Melaka,Final stage: disposed,2026-01-03T23:51:00Z
+EW-0149,Registered,CollectorA,Johor,Initial registration,2025-12-31T15:06:00Z
+EW-0149,Collected,CollectorA,Johor,Collected from user,2026-01-01T22:06:00Z
+EW-0149,Recycled,RecyclerY,Perak,Final stage: recycled,2026-01-04T15:06:00Z
+EW-0150,Registered,CollectorB,Selangor,Initial registration,2025-12-31T08:57:00Z
+EW-0150,Collected,CollectorB,Selangor,Collected from user,2026-01-01T17:57:00Z
+EW-0150,Disposed,RecyclerX,Johor,Final stage: disposed,2026-01-02T12:57:00Z
+EW-0151,Registered,CollectorA,Penang,Initial registration,2025-12-31T10:48:00Z
+EW-0151,Collected,CollectorA,Penang,Collected from user,2026-01-02T02:48:00Z
+EW-0151,Recycled,RecyclerX,Penang,Final stage: recycled,2026-01-04T13:48:00Z
+EW-0152,Registered,CollectorB,Johor,Initial registration,2025-12-31T00:29:00Z
+EW-0152,Collected,CollectorB,Johor,Collected from user,2026-01-01T08:29:00Z
+EW-0152,Recycled,RecyclerY,Perak,Final stage: recycled,2026-01-01T16:29:00Z
+EW-0153,Registered,CollectorA,Penang,Initial registration,2026-01-01T01:56:00Z
+EW-0153,Collected,CollectorA,Penang,Collected from user,2026-01-02T16:56:00Z
+EW-0153,Disposed,RecyclerX,Kuala Lumpur,Final stage: disposed,2026-01-05T10:56:00Z
+EW-0154,Registered,CollectorB,Kuala Lumpur,Initial registration,2025-12-31T13:03:00Z
+EW-0154,Collected,CollectorB,Kuala Lumpur,Collected from user,2025-12-31T17:03:00Z
+EW-0154,Disposed,RecyclerY,Kuala Lumpur,Final stage: disposed,2026-01-01T23:03:00Z
+EW-0155,Registered,CollectorC,Melaka,Initial registration,2025-12-29T22:35:00Z
+EW-0155,Collected,CollectorC,Melaka,Collected from user,2025-12-30T07:35:00Z
+EW-0155,Disposed,RecyclerY,Penang,Final stage: disposed,2025-12-31T01:35:00Z
+EW-0156,Registered,CollectorC,Kuala Lumpur,Initial registration,2025-12-29T12:33:00Z
+EW-0156,Collected,CollectorC,Kuala Lumpur,Collected from user,2025-12-29T15:33:00Z
+EW-0156,Disposed,RecyclerY,Perak,Final stage: disposed,2025-12-30T14:33:00Z
+EW-0157,Registered,CollectorB,Perak,Initial registration,2025-12-31T01:51:00Z
+EW-0157,Collected,CollectorB,Perak,Collected from user,2025-12-31T12:51:00Z
+EW-0157,Disposed,RecyclerY,Perak,Final stage: disposed,2026-01-02T20:51:00Z
+EW-0158,Registered,CollectorB,Penang,Initial registration,2025-12-29T21:19:00Z
+EW-0158,Collected,CollectorB,Penang,Collected from user,2025-12-31T00:19:00Z
+EW-0158,Recycled,RecyclerY,Penang,Final stage: recycled,2026-01-01T21:19:00Z
+EW-0159,Registered,CollectorC,Melaka,Initial registration,2025-12-31T10:16:00Z
+EW-0159,Collected,CollectorC,Melaka,Collected from user,2025-12-31T20:16:00Z
+EW-0159,Recycled,RecyclerX,Selangor,Final stage: recycled,2026-01-02T09:16:00Z
+EW-0160,Registered,CollectorC,Selangor,Initial registration,2025-12-31T14:23:00Z
+EW-0160,Collected,CollectorC,Selangor,Collected from user,2026-01-01T23:23:00Z
+EW-0160,Recycled,RecyclerX,Perak,Final stage: recycled,2026-01-04T17:23:00Z
+EW-0161,Registered,CollectorC,Johor,Initial registration,2025-12-31T01:12:00Z
+EW-0161,Collected,CollectorC,Johor,Collected from user,2025-12-31T13:12:00Z
+EW-0161,Disposed,RecyclerY,Melaka,Final stage: disposed,2026-01-03T05:12:00Z
+EW-0162,Registered,CollectorB,Perak,Initial registration,2025-12-30T23:07:00Z
+EW-0162,Collected,CollectorB,Perak,Collected from user,2025-12-31T14:07:00Z
+EW-0162,Disposed,RecyclerX,Melaka,Final stage: disposed,2026-01-02T10:07:00Z
+EW-0163,Registered,CollectorB,Kuala Lumpur,Initial registration,2026-01-01T12:39:00Z
+EW-0163,Collected,CollectorB,Kuala Lumpur,Collected from user,2026-01-03T08:39:00Z
+EW-0163,Disposed,RecyclerY,Selangor,Final stage: disposed,2026-01-05T14:39:00Z
+EW-0164,Registered,CollectorB,Johor,Initial registration,2025-12-30T17:22:00Z
+EW-0164,Collected,CollectorB,Johor,Collected from user,2026-01-01T17:22:00Z
+EW-0164,Recycled,RecyclerX,Perak,Final stage: recycled,2026-01-04T12:22:00Z
+EW-0165,Registered,CollectorC,Perak,Initial registration,2025-12-30T15:02:00Z
+EW-0165,Collected,CollectorC,Perak,Collected from user,2025-12-31T07:02:00Z
+EW-0165,Recycled,RecyclerX,Kuala Lumpur,Final stage: recycled,2025-12-31T19:02:00Z
+EW-0166,Registered,CollectorC,Selangor,Initial registration,2025-12-29T07:04:00Z
+EW-0166,Collected,CollectorC,Selangor,Collected from user,2025-12-30T19:04:00Z
+EW-0166,Disposed,RecyclerY,Johor,Final stage: disposed,2025-12-31T21:04:00Z
+EW-0167,Registered,CollectorA,Melaka,Initial registration,2026-01-01T12:45:00Z
+EW-0167,Collected,CollectorA,Melaka,Collected from user,2026-01-02T03:45:00Z
+EW-0167,Recycled,RecyclerY,Selangor,Final stage: recycled,2026-01-02T13:45:00Z
+EW-0168,Registered,CollectorA,Kuala Lumpur,Initial registration,2025-12-30T23:06:00Z
+EW-0168,Collected,CollectorA,Kuala Lumpur,Collected from user,2026-01-01T12:06:00Z
+EW-0168,Disposed,RecyclerY,Johor,Final stage: disposed,2026-01-02T07:06:00Z
+EW-0169,Registered,CollectorA,Penang,Initial registration,2025-12-30T04:33:00Z
+EW-0169,Collected,CollectorA,Penang,Collected from user,2026-01-01T03:33:00Z
+EW-0169,Disposed,RecyclerX,Kuala Lumpur,Final stage: disposed,2026-01-03T19:33:00Z
+EW-0170,Registered,CollectorA,Perak,Initial registration,2025-12-31T13:43:00Z
+EW-0170,Collected,CollectorA,Perak,Collected from user,2026-01-01T17:43:00Z
+EW-0170,Disposed,RecyclerX,Johor,Final stage: disposed,2026-01-04T16:43:00Z
+EW-0171,Registered,CollectorA,Penang,Initial registration,2025-12-31T10:44:00Z
+EW-0171,Collected,CollectorA,Penang,Collected from user,2026-01-01T02:44:00Z
+EW-0171,Disposed,RecyclerY,Penang,Final stage: disposed,2026-01-03T17:44:00Z
+EW-0172,Registered,CollectorC,Kuala Lumpur,Initial registration,2025-12-31T21:54:00Z
+EW-0172,Collected,CollectorC,Kuala Lumpur,Collected from user,2026-01-01T17:54:00Z
+EW-0172,Disposed,RecyclerY,Melaka,Final stage: disposed,2026-01-02T19:54:00Z
+EW-0173,Registered,CollectorA,Johor,Initial registration,2025-12-30T03:16:00Z
+EW-0173,Collected,CollectorA,Johor,Collected from user,2025-12-31T09:16:00Z
+EW-0173,Disposed,RecyclerY,Perak,Final stage: disposed,2026-01-02T14:16:00Z
+EW-0174,Registered,CollectorC,Johor,Initial registration,2026-01-01T06:28:00Z
+EW-0174,Collected,CollectorC,Johor,Collected from user,2026-01-03T04:28:00Z
+EW-0174,Recycled,RecyclerX,Kuala Lumpur,Final stage: recycled,2026-01-05T08:28:00Z
+EW-0175,Registered,CollectorC,Johor,Initial registration,2025-12-29T22:14:00Z
+EW-0175,Collected,CollectorC,Johor,Collected from user,2025-12-31T18:14:00Z
+EW-0175,Disposed,RecyclerX,Perak,Final stage: disposed,2026-01-02T02:14:00Z
+EW-0176,Registered,CollectorB,Perak,Initial registration,2025-12-29T14:14:00Z
+EW-0176,Collected,CollectorB,Perak,Collected from user,2025-12-31T02:14:00Z
+EW-0176,Disposed,RecyclerX,Johor,Final stage: disposed,2026-01-02T19:14:00Z
+EW-0177,Registered,CollectorB,Penang,Initial registration,2025-12-29T15:04:00Z
+EW-0177,Collected,CollectorB,Penang,Collected from user,2025-12-31T02:04:00Z
+EW-0177,Recycled,RecyclerY,Kuala Lumpur,Final stage: recycled,2025-12-31T15:04:00Z
+EW-0178,Registered,CollectorB,Johor,Initial registration,2025-12-31T19:36:00Z
+EW-0178,Collected,CollectorB,Johor,Collected from user,2026-01-01T20:36:00Z
+EW-0178,Recycled,RecyclerX,Melaka,Final stage: recycled,2026-01-04T02:36:00Z
+EW-0179,Registered,CollectorC,Selangor,Initial registration,2025-12-30T12:46:00Z
+EW-0179,Collected,CollectorC,Selangor,Collected from user,2025-12-30T13:46:00Z
+EW-0179,Disposed,RecyclerY,Melaka,Final stage: disposed,2025-12-30T21:46:00Z
+EW-0180,Registered,CollectorB,Penang,Initial registration,2025-12-30T03:32:00Z
+EW-0180,Collected,CollectorB,Penang,Collected from user,2025-12-30T21:32:00Z
+EW-0180,Recycled,RecyclerX,Melaka,Final stage: recycled,2026-01-01T03:32:00Z
+EW-0181,Registered,CollectorA,Perak,Initial registration,2025-12-29T10:57:00Z
+EW-0181,Collected,CollectorA,Perak,Collected from user,2025-12-30T15:57:00Z
+EW-0181,Recycled,RecyclerX,Johor,Final stage: recycled,2025-12-31T03:57:00Z
+EW-0182,Registered,CollectorA,Perak,Initial registration,2025-12-30T21:51:00Z
+EW-0182,Collected,CollectorA,Perak,Collected from user,2025-12-31T12:51:00Z
+EW-0182,Disposed,RecyclerX,Penang,Final stage: disposed,2026-01-02T10:51:00Z
+EW-0183,Registered,CollectorA,Perak,Initial registration,2026-01-01T15:08:00Z
+EW-0183,Collected,CollectorA,Perak,Collected from user,2026-01-03T15:08:00Z
+EW-0183,Disposed,RecyclerY,Kuala Lumpur,Final stage: disposed,2026-01-04T19:08:00Z
+EW-0184,Registered,CollectorB,Selangor,Initial registration,2025-12-30T23:18:00Z
+EW-0184,Collected,CollectorB,Selangor,Collected from user,2026-01-01T00:18:00Z
+EW-0184,Disposed,RecyclerX,Selangor,Final stage: disposed,2026-01-02T05:18:00Z
+EW-0185,Registered,CollectorB,Johor,Initial registration,2026-01-01T10:27:00Z
+EW-0185,Collected,CollectorB,Johor,Collected from user,2026-01-02T20:27:00Z
+EW-0185,Disposed,RecyclerX,Penang,Final stage: disposed,2026-01-03T19:27:00Z
+EW-0186,Registered,CollectorA,Perak,Initial registration,2025-12-30T08:22:00Z
+EW-0186,Collected,CollectorA,Perak,Collected from user,2025-12-30T12:22:00Z
+EW-0186,Disposed,RecyclerX,Kuala Lumpur,Final stage: disposed,2026-01-01T04:22:00Z
+EW-0187,Registered,CollectorB,Penang,Initial registration,2025-12-29T08:27:00Z
+EW-0187,Collected,CollectorB,Penang,Collected from user,2025-12-29T22:27:00Z
+EW-0187,Recycled,RecyclerY,Selangor,Final stage: recycled,2025-12-31T04:27:00Z
+EW-0188,Registered,CollectorB,Johor,Initial registration,2026-01-01T07:13:00Z
+EW-0188,Collected,CollectorB,Johor,Collected from user,2026-01-03T01:13:00Z
+EW-0188,Disposed,RecyclerY,Penang,Final stage: disposed,2026-01-05T04:13:00Z
+EW-0189,Registered,CollectorB,Selangor,Initial registration,2025-12-31T08:58:00Z
+EW-0189,Collected,CollectorB,Selangor,Collected from user,2026-01-01T05:58:00Z
+EW-0189,Recycled,RecyclerX,Melaka,Final stage: recycled,2026-01-03T15:58:00Z
+EW-0190,Registered,CollectorC,Melaka,Initial registration,2025-12-31T15:22:00Z
+EW-0190,Collected,CollectorC,Melaka,Collected from user,2026-01-01T10:22:00Z
+EW-0190,Recycled,RecyclerY,Selangor,Final stage: recycled,2026-01-02T11:22:00Z
+EW-0191,Registered,CollectorB,Johor,Initial registration,2026-01-01T01:20:00Z
+EW-0191,Collected,CollectorB,Johor,Collected from user,2026-01-02T07:20:00Z
+EW-0191,Disposed,RecyclerX,Selangor,Final stage: disposed,2026-01-03T10:20:00Z
+EW-0192,Registered,CollectorC,Kuala Lumpur,Initial registration,2025-12-29T16:30:00Z
+EW-0192,Collected,CollectorC,Kuala Lumpur,Collected from user,2025-12-31T11:30:00Z
+EW-0192,Recycled,RecyclerY,Selangor,Final stage: recycled,2025-12-31T23:30:00Z
+EW-0193,Registered,CollectorB,Penang,Initial registration,2025-12-29T14:37:00Z
+EW-0193,Collected,CollectorB,Penang,Collected from user,2025-12-31T06:37:00Z
+EW-0193,Disposed,RecyclerX,Kuala Lumpur,Final stage: disposed,2026-01-03T01:37:00Z
+EW-0194,Registered,CollectorC,Penang,Initial registration,2025-12-29T08:42:00Z
+EW-0194,Collected,CollectorC,Penang,Collected from user,2025-12-30T17:42:00Z
+EW-0194,Recycled,RecyclerX,Kuala Lumpur,Final stage: recycled,2026-01-02T06:42:00Z
+EW-0195,Registered,CollectorB,Penang,Initial registration,2025-12-31T12:33:00Z
+EW-0195,Collected,CollectorB,Penang,Collected from user,2025-12-31T18:33:00Z
+EW-0195,Disposed,RecyclerY,Perak,Final stage: disposed,2026-01-02T23:33:00Z
+EW-0196,Registered,CollectorC,Melaka,Initial registration,2025-12-29T10:41:00Z
+EW-0196,Collected,CollectorC,Melaka,Collected from user,2025-12-29T16:41:00Z
+EW-0196,Disposed,RecyclerY,Perak,Final stage: disposed,2026-01-01T01:41:00Z
+EW-0197,Registered,CollectorB,Johor,Initial registration,2025-12-31T03:35:00Z
+EW-0197,Collected,CollectorB,Johor,Collected from user,2026-01-01T16:35:00Z
+EW-0197,Recycled,RecyclerX,Selangor,Final stage: recycled,2026-01-02T10:35:00Z
+EW-0198,Registered,CollectorC,Perak,Initial registration,2025-12-29T10:51:00Z
+EW-0198,Collected,CollectorC,Perak,Collected from user,2025-12-29T22:51:00Z
+EW-0198,Recycled,RecyclerX,Perak,Final stage: recycled,2025-12-31T20:51:00Z
+EW-0199,Registered,CollectorA,Perak,Initial registration,2025-12-31T11:29:00Z
+EW-0199,Collected,CollectorA,Perak,Collected from user,2026-01-02T07:29:00Z
+EW-0199,Disposed,RecyclerX,Melaka,Final stage: disposed,2026-01-04T07:29:00Z
+EW-0200,Registered,CollectorA,Kuala Lumpur,Initial registration,2025-12-31T04:52:00Z
+EW-0200,Collected,CollectorA,Kuala Lumpur,Collected from user,2026-01-01T19:52:00Z
+EW-0200,Disposed,RecyclerX,Melaka,Final stage: disposed,2026-01-04T03:52:00Z

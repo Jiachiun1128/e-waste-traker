@@ -1,0 +1,201 @@
+deviceId,category,brand,model,weightKg,condition,owner,location
+EW-0001,Laptop,Samsung,G14,3.71,Damaged,CollectorC,Kuala Lumpur
+EW-0002,TV,Dell,Inspiron,9.05,Screen cracked,CollectorA,Melaka
+EW-0003,Tablet,Acer,VivoX,4.2,Damaged,CollectorB,Kuala Lumpur
+EW-0004,Printer,Samsung,ThinkPad,8.07,Battery issue,CollectorA,Perak
+EW-0005,TV,HP,S10,12.84,Working,CollectorB,Penang
+EW-0006,TV,HP,S10,9.16,Damaged,CollectorC,Melaka
+EW-0007,TV,Lenovo,A1,3.47,Working,CollectorB,Johor
+EW-0008,Camera,Acer,ThinkPad,2.19,Damaged,CollectorA,Melaka
+EW-0009,TV,Xiaomi,Inspiron,7.43,Working,CollectorA,Selangor
+EW-0010,Camera,LG,G14,14.57,Working,CollectorC,Melaka
+EW-0011,Router,Xiaomi,ThinkPad,0.1,Broken,CollectorC,Selangor
+EW-0012,Tablet,LG,Inspiron,13.78,Screen cracked,CollectorB,Johor
+EW-0013,TV,Asus,S10,1.33,Battery issue,CollectorA,Perak
+EW-0014,Router,Dell,Inspiron,11.34,Damaged,CollectorC,Penang
+EW-0015,TV,Dell,S10,5.1,Screen cracked,CollectorC,Selangor
+EW-0016,Laptop,Samsung,VivoX,1.11,Damaged,CollectorB,Melaka
+EW-0017,Router,Dell,S10,1.5,Battery issue,CollectorB,Johor
+EW-0018,Monitor,Apple,Pro15,2.91,Screen cracked,CollectorB,Selangor
+EW-0019,Camera,LG,S10,0.81,Screen cracked,CollectorA,Kuala Lumpur
+EW-0020,Router,Samsung,X200,5.72,Battery issue,CollectorB,Johor
+EW-0021,TV,Samsung,Pavilion,11.05,Working,CollectorC,Penang
+EW-0022,Laptop,Xiaomi,S10,8.95,Damaged,CollectorB,Kuala Lumpur
+EW-0023,Monitor,HP,Pro15,10.06,Broken,CollectorA,Penang
+EW-0024,Phone,Sony,Pavilion,14.98,Working,CollectorA,Perak
+EW-0025,TV,Lenovo,G14,2.41,Screen cracked,CollectorC,Penang
+EW-0026,Laptop,Apple,Inspiron,2.37,Broken,CollectorC,Selangor
+EW-0027,Laptop,Acer,G14,0.71,Broken,CollectorA,Melaka
+EW-0028,Laptop,Xiaomi,Inspiron,0.59,Broken,CollectorC,Perak
+EW-0029,Phone,Lenovo,Pro15,10.25,Working,CollectorB,Perak
+EW-0030,Router,Samsung,X200,11.06,Broken,CollectorB,Melaka
+EW-0031,Camera,Dell,Pro15,12.26,Battery issue,CollectorB,Penang
+EW-0032,Printer,Apple,G14,5.3,Screen cracked,CollectorB,Melaka
+EW-0033,Printer,Samsung,S10,8.97,Broken,CollectorC,Penang
+EW-0034,TV,HP,A1,10.65,Working,CollectorC,Perak
+EW-0035,Monitor,Apple,G14,7.63,Battery issue,CollectorB,Johor
+EW-0036,Router,Xiaomi,Pavilion,8.56,Battery issue,CollectorC,Kuala Lumpur
+EW-0037,Camera,Sony,Pro15,7.69,Damaged,CollectorC,Kuala Lumpur
+EW-0038,Printer,Dell,Pro15,2.25,Working,CollectorA,Johor
+EW-0039,Router,Dell,X200,9.86,Working,CollectorA,Johor
+EW-0040,TV,Apple,ThinkPad,2.04,Battery issue,CollectorC,Perak
+EW-0041,Camera,Xiaomi,ThinkPad,6.78,Damaged,CollectorC,Penang
+EW-0042,Printer,Dell,G14,5.07,Screen cracked,CollectorA,Selangor
+EW-0043,Router,Acer,VivoX,8.16,Battery issue,CollectorA,Selangor
+EW-0044,Monitor,HP,Note9,12.81,Battery issue,CollectorC,Melaka
+EW-0045,Router,Sony,A1,5.86,Battery issue,CollectorC,Selangor
+EW-0046,Router,Xiaomi,ThinkPad,2.77,Broken,CollectorB,Penang
+EW-0047,Router,HP,S10,7.08,Screen cracked,CollectorA,Penang
+EW-0048,TV,Samsung,Pavilion,2.33,Damaged,CollectorB,Melaka
+EW-0049,Tablet,Asus,Pavilion,14.46,Working,CollectorA,Penang
+EW-0050,TV,Apple,Pavilion,10.37,Damaged,CollectorA,Melaka
+EW-0051,Router,Lenovo,S10,7.61,Broken,CollectorA,Johor
+EW-0052,Tablet,Acer,X200,11.02,Broken,CollectorC,Perak
+EW-0053,Laptop,HP,ThinkPad,3.7,Battery issue,CollectorC,Perak
+EW-0054,Camera,Dell,VivoX,11.98,Broken,CollectorB,Perak
+EW-0055,Router,Sony,Inspiron,11.38,Battery issue,CollectorC,Melaka
+EW-0056,Router,Dell,G14,9.98,Broken,CollectorB,Perak
+EW-0057,Camera,HP,G14,3.81,Working,CollectorC,Selangor
+EW-0058,Camera,HP,Pavilion,14.65,Screen cracked,CollectorC,Penang
+EW-0059,Printer,Samsung,Inspiron,1.94,Working,CollectorA,Perak
+EW-0060,Printer,Sony,ThinkPad,6.64,Damaged,CollectorA,Penang
+EW-0061,Phone,Xiaomi,X200,12.18,Broken,CollectorA,Selangor
+EW-0062,Camera,HP,Pavilion,14.85,Broken,CollectorC,Perak
+EW-0063,Laptop,Xiaomi,Pro15,2.65,Working,CollectorA,Kuala Lumpur
+EW-0064,Printer,HP,ThinkPad,1.11,Damaged,CollectorB,Melaka
+EW-0065,TV,Xiaomi,G14,12.41,Working,CollectorA,Selangor
+EW-0066,Printer,Acer,G14,7.53,Battery issue,CollectorB,Kuala Lumpur
+EW-0067,Laptop,Dell,Pavilion,8.83,Working,CollectorC,Penang
+EW-0068,Tablet,Asus,Note9,9.54,Battery issue,CollectorA,Johor
+EW-0069,Monitor,Acer,ThinkPad,4.36,Battery issue,CollectorC,Kuala Lumpur
+EW-0070,Router,LG,A1,9.88,Screen cracked,CollectorB,Johor
+EW-0071,Camera,Samsung,Pro15,4.04,Damaged,CollectorB,Johor
+EW-0072,Phone,LG,Note9,1.44,Working,CollectorB,Kuala Lumpur
+EW-0073,Camera,Dell,ThinkPad,8.29,Battery issue,CollectorA,Perak
+EW-0074,Monitor,LG,G14,12.32,Broken,CollectorC,Penang
+EW-0075,Camera,Lenovo,VivoX,8.3,Screen cracked,CollectorB,Johor
+EW-0076,Phone,Lenovo,ThinkPad,10.59,Battery issue,CollectorB,Melaka
+EW-0077,Camera,Apple,Inspiron,13.66,Working,CollectorC,Selangor
+EW-0078,Monitor,Asus,Note9,9.77,Broken,CollectorC,Perak
+EW-0079,Printer,Dell,S10,6.54,Working,CollectorC,Melaka
+EW-0080,Monitor,Samsung,G14,5.41,Battery issue,CollectorA,Selangor
+EW-0081,Router,Asus,Pro15,7.49,Screen cracked,CollectorA,Selangor
+EW-0082,Phone,Sony,G14,10.18,Damaged,CollectorA,Johor
+EW-0083,Printer,Dell,Note9,12.81,Working,CollectorA,Johor
+EW-0084,Router,HP,A1,8.51,Working,CollectorC,Melaka
+EW-0085,TV,Asus,G14,10.18,Damaged,CollectorC,Kuala Lumpur
+EW-0086,Tablet,Apple,G14,4.93,Battery issue,CollectorA,Selangor
+EW-0087,Camera,HP,VivoX,12.07,Battery issue,CollectorA,Selangor
+EW-0088,Phone,HP,Inspiron,1.9,Broken,CollectorC,Melaka
+EW-0089,TV,Sony,A1,9.31,Screen cracked,CollectorB,Perak
+EW-0090,Router,Apple,X200,0.73,Working,CollectorB,Johor
+EW-0091,Monitor,LG,Note9,8.83,Damaged,CollectorB,Melaka
+EW-0092,Monitor,Dell,ThinkPad,6.7,Damaged,CollectorB,Kuala Lumpur
+EW-0093,TV,Apple,ThinkPad,1.42,Damaged,CollectorC,Melaka
+EW-0094,TV,Apple,Inspiron,3.15,Damaged,CollectorA,Penang
+EW-0095,Printer,Xiaomi,S10,9.93,Working,CollectorA,Kuala Lumpur
+EW-0096,Phone,Xiaomi,Note9,7.91,Working,CollectorB,Johor
+EW-0097,Phone,LG,G14,6.9,Working,CollectorA,Johor
+EW-0098,Laptop,Lenovo,Pavilion,2.27,Damaged,CollectorB,Perak
+EW-0099,Router,Apple,S10,12.8,Screen cracked,CollectorC,Selangor
+EW-0100,Router,Acer,S10,4.72,Broken,CollectorC,Penang
+EW-0101,Laptop,Acer,S10,11.18,Broken,CollectorA,Perak
+EW-0102,Router,Samsung,G14,9.03,Broken,CollectorA,Perak
+EW-0103,Monitor,LG,VivoX,1.77,Broken,CollectorC,Selangor
+EW-0104,Printer,HP,VivoX,5.3,Damaged,CollectorA,Perak
+EW-0105,TV,Acer,Note9,6.83,Damaged,CollectorB,Penang
+EW-0106,Phone,Apple,G14,6.67,Battery issue,CollectorB,Perak
+EW-0107,Router,Apple,G14,10.19,Screen cracked,CollectorB,Perak
+EW-0108,TV,HP,Pro15,11.52,Broken,CollectorB,Penang
+EW-0109,Router,LG,Pro15,7.53,Broken,CollectorA,Johor
+EW-0110,Router,Asus,Note9,10.66,Battery issue,CollectorB,Kuala Lumpur
+EW-0111,Monitor,Apple,Note9,12.68,Damaged,CollectorB,Perak
+EW-0112,Monitor,Dell,VivoX,11.7,Working,CollectorC,Melaka
+EW-0113,Tablet,Dell,S10,2.24,Damaged,CollectorA,Perak
+EW-0114,Camera,Asus,Pavilion,4.88,Broken,CollectorA,Johor
+EW-0115,Phone,Lenovo,Inspiron,1.16,Battery issue,CollectorB,Kuala Lumpur
+EW-0116,Router,Sony,Pavilion,8.34,Working,CollectorB,Perak
+EW-0117,Laptop,Lenovo,S10,7.59,Damaged,CollectorA,Selangor
+EW-0118,Printer,Acer,Note9,11.63,Screen cracked,CollectorA,Melaka
+EW-0119,Printer,Asus,X200,5.03,Screen cracked,CollectorC,Selangor
+EW-0120,Router,Lenovo,X200,10.07,Screen cracked,CollectorA,Melaka
+EW-0121,Tablet,Dell,VivoX,14.22,Battery issue,CollectorA,Selangor
+EW-0122,Phone,Lenovo,Pavilion,2.01,Battery issue,CollectorA,Selangor
+EW-0123,Monitor,Dell,ThinkPad,9.18,Battery issue,CollectorA,Perak
+EW-0124,Camera,Sony,G14,11.68,Screen cracked,CollectorC,Johor
+EW-0125,Camera,Lenovo,Inspiron,14.02,Screen cracked,CollectorA,Penang
+EW-0126,Laptop,Dell,ThinkPad,13.28,Working,CollectorB,Kuala Lumpur
+EW-0127,Monitor,Dell,A1,4.81,Working,CollectorC,Melaka
+EW-0128,Tablet,Sony,ThinkPad,9.25,Working,CollectorA,Penang
+EW-0129,Printer,Apple,A1,3.61,Screen cracked,CollectorB,Kuala Lumpur
+EW-0130,Router,Samsung,Pavilion,5.32,Screen cracked,CollectorB,Selangor
+EW-0131,Camera,Samsung,Note9,14.72,Broken,CollectorC,Kuala Lumpur
+EW-0132,Monitor,Xiaomi,A1,5.32,Broken,CollectorC,Selangor
+EW-0133,Camera,Samsung,G14,3.06,Damaged,CollectorA,Penang
+EW-0134,TV,HP,VivoX,12.94,Working,CollectorC,Penang
+EW-0135,Camera,Acer,VivoX,14.61,Battery issue,CollectorC,Johor
+EW-0136,Router,Asus,X200,8.2,Broken,CollectorA,Kuala Lumpur
+EW-0137,Router,Xiaomi,ThinkPad,5.31,Working,CollectorC,Penang
+EW-0138,Tablet,Samsung,X200,12.74,Battery issue,CollectorA,Selangor
+EW-0139,Phone,Asus,X200,10.2,Broken,CollectorB,Johor
+EW-0140,Printer,Dell,S10,0.44,Damaged,CollectorB,Perak
+EW-0141,Camera,Dell,Pavilion,4.32,Battery issue,CollectorA,Kuala Lumpur
+EW-0142,Monitor,Lenovo,S10,8.27,Broken,CollectorB,Selangor
+EW-0143,Tablet,Dell,ThinkPad,0.44,Screen cracked,CollectorC,Penang
+EW-0144,Router,Sony,Inspiron,6.19,Battery issue,CollectorC,Kuala Lumpur
+EW-0145,Monitor,Xiaomi,Inspiron,9.61,Damaged,CollectorA,Johor
+EW-0146,Tablet,Lenovo,Pro15,5.22,Screen cracked,CollectorB,Kuala Lumpur
+EW-0147,Laptop,LG,X200,8.9,Screen cracked,CollectorA,Selangor
+EW-0148,Printer,Dell,Pavilion,6.28,Working,CollectorB,Melaka
+EW-0149,Router,HP,ThinkPad,1.14,Working,CollectorA,Johor
+EW-0150,Tablet,Lenovo,VivoX,11.03,Broken,CollectorB,Selangor
+EW-0151,Laptop,HP,ThinkPad,3.76,Working,CollectorA,Penang
+EW-0152,Monitor,Dell,X200,7.5,Screen cracked,CollectorB,Johor
+EW-0153,Camera,Dell,Pro15,8.77,Working,CollectorA,Penang
+EW-0154,Router,Xiaomi,G14,10.93,Battery issue,CollectorB,Kuala Lumpur
+EW-0155,Router,LG,ThinkPad,11.48,Broken,CollectorC,Melaka
+EW-0156,Monitor,Xiaomi,Pro15,9.06,Battery issue,CollectorC,Kuala Lumpur
+EW-0157,Camera,Xiaomi,Pavilion,13.4,Damaged,CollectorB,Perak
+EW-0158,Camera,Asus,G14,7.15,Working,CollectorB,Penang
+EW-0159,TV,Samsung,Pavilion,7.23,Screen cracked,CollectorC,Melaka
+EW-0160,Phone,Sony,VivoX,6.31,Battery issue,CollectorC,Selangor
+EW-0161,TV,LG,VivoX,14.97,Battery issue,CollectorC,Johor
+EW-0162,Printer,Asus,ThinkPad,2.92,Damaged,CollectorB,Perak
+EW-0163,Camera,Lenovo,ThinkPad,5.26,Broken,CollectorB,Kuala Lumpur
+EW-0164,Printer,Samsung,G14,14.33,Working,CollectorB,Johor
+EW-0165,Printer,LG,G14,2.1,Screen cracked,CollectorC,Perak
+EW-0166,Laptop,Acer,VivoX,10.77,Working,CollectorC,Selangor
+EW-0167,TV,HP,VivoX,4.32,Working,CollectorA,Melaka
+EW-0168,Phone,Acer,ThinkPad,2.84,Broken,CollectorA,Kuala Lumpur
+EW-0169,Camera,Xiaomi,Inspiron,7.05,Damaged,CollectorA,Penang
+EW-0170,Monitor,HP,Pavilion,10.13,Damaged,CollectorA,Perak
+EW-0171,Laptop,Xiaomi,X200,7.19,Damaged,CollectorA,Penang
+EW-0172,Phone,HP,VivoX,10.41,Working,CollectorC,Kuala Lumpur
+EW-0173,Laptop,HP,VivoX,9.24,Damaged,CollectorA,Johor
+EW-0174,TV,Dell,Pavilion,13.1,Working,CollectorC,Johor
+EW-0175,TV,Asus,Inspiron,2.29,Broken,CollectorC,Johor
+EW-0176,Camera,Samsung,ThinkPad,2.02,Battery issue,CollectorB,Perak
+EW-0177,Printer,Samsung,Pro15,8.7,Working,CollectorB,Penang
+EW-0178,Printer,Acer,X200,11.55,Battery issue,CollectorB,Johor
+EW-0179,Monitor,Apple,X200,14.89,Battery issue,CollectorC,Selangor
+EW-0180,Router,LG,Note9,12.36,Damaged,CollectorB,Penang
+EW-0181,Router,Asus,A1,3.65,Working,CollectorA,Perak
+EW-0182,Camera,Dell,Inspiron,3.3,Working,CollectorA,Perak
+EW-0183,Tablet,LG,Pro15,6.23,Broken,CollectorA,Perak
+EW-0184,Monitor,Acer,Inspiron,4.82,Battery issue,CollectorB,Selangor
+EW-0185,Printer,Xiaomi,ThinkPad,13.73,Screen cracked,CollectorB,Johor
+EW-0186,TV,Lenovo,S10,13.84,Broken,CollectorA,Perak
+EW-0187,TV,Asus,Inspiron,3.29,Damaged,CollectorB,Penang
+EW-0188,TV,Acer,Pro15,8.3,Broken,CollectorB,Johor
+EW-0189,Camera,Sony,S10,12.05,Battery issue,CollectorB,Selangor
+EW-0190,Tablet,Samsung,G14,8.32,Screen cracked,CollectorC,Melaka
+EW-0191,Router,Asus,Pro15,7.51,Broken,CollectorB,Johor
+EW-0192,Camera,Xiaomi,Inspiron,14.86,Working,CollectorC,Kuala Lumpur
+EW-0193,TV,Apple,X200,0.19,Screen cracked,CollectorB,Penang
+EW-0194,Router,Samsung,A1,7.96,Broken,CollectorC,Penang
+EW-0195,Tablet,Dell,Pro15,9.32,Broken,CollectorB,Penang
+EW-0196,TV,Dell,G14,10.28,Working,CollectorC,Melaka
+EW-0197,Camera,Samsung,A1,10.56,Working,CollectorB,Johor
+EW-0198,Camera,HP,A1,13.87,Broken,CollectorC,Perak
+EW-0199,Tablet,Acer,S10,4.52,Screen cracked,CollectorA,Perak
+EW-0200,Laptop,LG,VivoX,0.85,Battery issue,CollectorA,Kuala Lumpur
