@@ -32,18 +32,26 @@ The most reliable solution is to downgrade Docker Engine to version 28 or earlie
    sudo apt-get remove docker-ce docker-ce-cli containerd.io
    ```
 
-3. **Install Docker Engine 28:**
+3. **List available Docker v28 versions:**
    ```bash
-   sudo apt-get update
-   sudo apt-get install docker-ce=5:28.0.* docker-ce-cli=5:28.0.* containerd.io
+   apt-cache madison docker-ce | grep 28
    ```
 
-4. **Verify the installation:**
+4. **Install Docker Engine 28 (use exact version from step 3):**
+   ```bash
+   sudo apt-get update
+   # Example for Ubuntu 22.04 - replace with your exact version from step 3
+   sudo apt-get install docker-ce=5:28.0.4-1~ubuntu.22.04~jammy \
+                        docker-ce-cli=5:28.0.4-1~ubuntu.22.04~jammy \
+                        containerd.io
+   ```
+
+5. **Verify the installation:**
    ```bash
    docker version
    ```
 
-5. **Restart your network and try deployment again:**
+6. **Restart your network and try deployment again:**
    ```bash
    ./scripts/cleanup.sh
    ./scripts/start-network.sh

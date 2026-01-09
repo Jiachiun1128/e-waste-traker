@@ -56,16 +56,20 @@ sudo chmod 666 /var/run/docker.sock 2>/dev/null || true
 # Try automated deployment
 echo "🚀 Deploying chaincode (this may take 3-5 minutes)..."
 
+# Create secure temporary file for logs
+DEPLOY_LOG=$(mktemp)
+trap "rm -f $DEPLOY_LOG" EXIT
+
 # Run deployment with better error handling
 if timeout 600 ./network.sh deployCC \
     -ccn ewaste \
     -ccp ~/e-waste-tracker/chaincode/javascript \
     -ccl javascript \
     -ccv 1.0 \
-    -ccs 1 2>&1 | tee /tmp/deploycc.log; then
+    -ccs 1 2>&1 | tee "$DEPLOY_LOG"; then
     
     # Check if deployment was actually successful
-    if grep -q "Chaincode definition committed on channel" /tmp/deploycc.log; then
+    if grep -q "Chaincode definition committed on channel" "$DEPLOY_LOG"; then
         echo ""
         echo "✅ ============================================"
         echo "✅  CHAINCODE DEPLOYED SUCCESSFULLY!"
@@ -77,7 +81,7 @@ if timeout 600 ./network.sh deployCC \
 fi
 
 # Check for specific error patterns
-if grep -qi "broken pipe\|docker.sock" /tmp/deploycc.log 2>/dev/null; then
+if grep -qi "broken pipe\|docker.sock" "$DEPLOY_LOG" 2>/dev/null; then
     echo ""
     echo "❌ ============================================"
     echo "❌  DOCKER SOCKET ERROR DETECTED"

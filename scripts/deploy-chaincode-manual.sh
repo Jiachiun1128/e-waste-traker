@@ -43,18 +43,22 @@ export CORE_PEER_TLS_ROOTCERT_FILE=${PWD}/organizations/peerOrganizations/org1.e
 export CORE_PEER_MSPCONFIGPATH=${PWD}/organizations/peerOrganizations/org1.example. com/users/Admin@org1.example. com/msp
 export CORE_PEER_ADDRESS=localhost:7051
 
+# Create secure temporary file for logs
+INSTALL_LOG=$(mktemp)
+trap "rm -f $INSTALL_LOG" EXIT
+
 # Try installation with timeout and better error handling
 for i in {1..3}; do
     echo "Attempt $i/3..."
-    if timeout 180 peer lifecycle chaincode install ewaste.tar.gz 2>&1 | tee /tmp/install-org1.log; then
-        if grep -q "Chaincode code package identifier" /tmp/install-org1.log; then
+    if timeout 180 peer lifecycle chaincode install ewaste.tar.gz 2>&1 | tee "$INSTALL_LOG"; then
+        if grep -q "Chaincode code package identifier" "$INSTALL_LOG"; then
             echo "✅ Installed on Org1"
             break
         fi
     fi
     
     # Check for Docker socket errors
-    if grep -qi "broken pipe\|docker.sock" /tmp/install-org1.log; then
+    if grep -qi "broken pipe\|docker.sock" "$INSTALL_LOG"; then
         echo ""
         echo "❌ Docker socket error detected!"
         echo "This is typically caused by Docker Engine v29+ incompatibility."
